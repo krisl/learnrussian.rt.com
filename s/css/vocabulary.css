@@ -1,0 +1,81 @@
+.vocabulary {
+    font-family: Times New Roman;
+}
+
+.vocabulary .clesson {
+   /* padding-left:100px;*/
+    padding-left:65px;
+}
+
+.vocabulary .clesson h2 {
+    margin-top:30px;
+}
+.vocabulary .clesson .right_block {
+    height: 45px;
+    float: right;
+}
+
+.vocabulary h1,.phonetics h2 {
+    font-family: Times New Roman;
+}
+
+.doc_icon {
+    display:none;
+    font-size:16px;
+    background: url("vocabulary/doc_icon.png") no-repeat;
+    padding:8px 0 10px 35px;
+    color:#999;
+}
+
+.right_block .doc_icon {
+    margin-top:10px;
+}
+
+.voc_column {
+    float: left;
+    width: 300px;
+    margin-top:50px;
+}
+.voc_column div {
+    float:left;
+  /*  padding-left:5px;
+    padding-top: 17px;
+    padding-bottom:15px;*/
+    font-size:15px;
+    line-height:16px;
+    width:238px;
+}
+
+.voc_column div p {
+    padding-bottom:10px;
+	text-indent:-20px; 
+	margin-left:57px;
+}
+.voc_column div p.spisok{
+	margin-left: 50px;
+    text-indent: -16px; 
+	}
+.voc_column img {
+    float: left;
+    clear:left;
+}
+
+.voc_letter {
+	clear: left; 
+	float: left; 
+	font-size: 34px; 
+	text-transform: uppercase;
+	width: 40px;
+}
+.vowel {
+	color: #d6051b
+}
+
+.consonant  {
+	color: #153565
+}
+
+.marginleft {
+    /*margin-left: 55px;*/
+	margin-left:24px;
+}

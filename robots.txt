@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /action/*
+Sitemap: http://learnrussian.rt.com/sitemap.xml

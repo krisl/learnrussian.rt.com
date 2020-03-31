@@ -1,0 +1,505 @@
+.topbar li {
+    margin-top:8px;
+    height:44px;
+    padding-top:15px;
+}
+
+.topbar li.testtimer {
+    background: url("tests/timer_small.png") no-repeat;
+    display:block;
+    width:200px;
+    height:33px;
+    margin:10px 0 0 405px;
+    font-size: 24px;
+    padding: 6px 0 0 40px;
+    display:none;
+}
+
+.topbar_buttons .start_button {
+    background: url("tests/start.png") no-repeat 0 0;
+    height: 54px;
+    width:106px;
+    cursor:pointer;
+    margin-left:405px;
+}
+.topbar_buttons .start_button:hover {
+    background: url("tests/start.png") no-repeat -106px 0;
+}
+
+.topbar_buttons .start_button:active {
+    background: url("tests/start.png") no-repeat -212px 0;
+}
+
+.topbar li.topbar_buttons {
+    margin:0;
+    height:54px;
+    padding:0;
+	/*width:100%;*/
+}
+.topbar {
+    height: 60px;
+}
+
+.topbar .up {
+    height: 54px;
+    padding:0;
+}
+
+.ltask {
+    font-size:20px;
+    padding-left:20px;
+    font-weight:bold;
+}
+
+.lesson {
+    margin: 15px 0 49px;
+}
+
+.ctask h2 {
+    font-size:20px;
+    font-weight:bold;
+    
+}
+
+.t_answer {
+    clear:both;
+    float:left;
+    margin-top:5px;
+}
+
+.t_answers {
+    margin-top:15px;
+}
+
+.t_answer .t_left {
+    background: url("tests/t_answ_edge.png") no-repeat 0 0;
+    height:40px;
+    float: left;
+    width:8px;
+}
+
+.t_answer .t_right {
+    background: url("tests/t_answ_edge.png") no-repeat -8px 0;
+    height:40px;
+    float: left;
+    width:8px;
+}
+
+.t_answer .t_mid {
+    background: url("tests/t_answ_center.png") repeat-x 0 0;
+    float: left;
+    height:33px;
+    padding-top:7px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.t_answer.active .t_left {
+    background: url("tests/t_answ_edge.png") no-repeat 0 -80px;
+}
+
+.t_answer.active  .t_right {
+    background: url("tests/t_answ_edge.png") no-repeat -8px -80px;
+}
+
+.t_answer.active  .t_mid {
+    background: url("tests/t_answ_center.png") repeat-x 0 -80px;
+}
+
+.t_answer.active:hover .t_left {
+    background: url("tests/t_answ_edge.png") no-repeat 0px -80px;
+}
+
+.t_answer.active:hover  .t_right {
+    background: url("tests/t_answ_edge.png") no-repeat -8px -80px;
+}
+
+.t_answer.active:hover  .t_mid {
+    background: url("tests/t_answ_center.png") repeat-x 0 -80px;
+}
+
+.t_answer:hover .t_left {
+    background: url("tests/t_answ_edge.png") no-repeat 0px -40px;
+}
+
+.t_answer:hover  .t_right {
+    background: url("tests/t_answ_edge.png") no-repeat -8px -40px;
+}
+
+.t_answer:hover  .t_mid {
+    background: url("tests/t_answ_center.png") repeat-x 0 -40px;
+}
+
+.testcompleted.popup {
+    background: url("tests/test-completed.png") no-repeat scroll 0 0 transparent;
+    display: none;
+    left: 50%;
+    margin-left: -267px;
+    margin-top: -100px;
+    position: fixed;
+    top: 50%;
+    z-index: 1000;
+}
+
+.testcompleted {
+    font: 13px arial;
+    height: 325px;
+    margin: 0 auto;
+    position: relative;
+    width: 533px;
+}
+
+.testcompleted.popup .close {
+    cursor: pointer;
+    float: right;
+    height: 20px;
+    margin: 20px 21px;
+    width: 17px;
+}
+
+.testcompleted.popup .est_percent {
+    margin-top: 116px;
+    height: 70px;
+    text-align:center;
+    font-size:18px;
+    font-family: Times New Roman;
+    position:relative;
+}
+.testcompleted.popup .est_percent div {
+    display: block;
+}
+.est_percent .percent {
+    font-size:70px;
+    position:absolute;
+    left:150px;
+    width: 150px;
+    text-align: right;
+    font-weight: bold;
+}
+.est_percent .percent_sign {
+    position:absolute;
+    left:303px;
+    top: 29px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.testcompleted.popup .est_time,.rlesson .est_time {
+    height: 27px;
+    text-align:center;
+    font-size:14px;
+    font-style: italic;
+    font-family: Times New Roman;
+    font-weight: bold;
+}
+
+
+.lesson.testpage {
+    margin: 15px 0 0;
+    height:40px;
+}
+.header_buttons div {
+    display: inline-block;
+}
+.header_buttons .test_btn {
+    background: url("tests/red_test_bg.png") transparent no-repeat 0 2px;
+    color:#000;
+    font-weight: bold;
+    font-size: 16px;
+    height: 18px;
+    width:39px;
+    text-align:center;
+    cursor:pointer;
+}
+
+.show_results {
+    color: #999;
+    font-size: 16px;
+    margin-left:10px;
+}
+
+.show_results.active:hover {
+    color: #DB0A0A;
+}
+
+.show_results.active {
+    color: #036;
+    text-decoration: underline;
+    cursor:pointer;
+}
+.testcompleted .show_results {
+    font-size:15px;
+    text-align:center;
+    padding-right:10px;
+}
+
+.testcompleted .share_btns {
+    margin-top: 20px;
+    height: 30px;
+    text-align: center;
+}
+
+.clesson h1 {
+    margin-bottom:3px;
+}
+.rlesson {
+    position: relative;
+}
+
+.rlesson.hide {
+    display:none;    
+}
+
+.rlesson .percent {
+    position: inherit;
+}
+
+.rlesson .percent_sign {
+    left:150px;
+    top: 50px;
+}
+.rlesson .est_time{
+    padding-left:30px;
+}
+.rlesson .last_result_text {
+    text-align:center;
+    font-family: Times New Roman;
+    font-size:18px;
+    padding-left:30px;
+}
+/*.clesson {
+    height:130px;
+}*/
+
+.achiv_block {
+    float: left;
+}
+
+.testresults {
+    padding-left:100px;
+    font-family: Times New Roman;
+}
+
+.test_achiv ul {
+    list-style: none;
+    margin-left:60px;
+	overflow: visible;
+}
+
+.test_achiv ul li {
+    float: left;
+    text-align:center;
+    margin-top: 20px;
+    width:225px;
+    height:280px;
+    background: url("tests/ah_1.png") no-repeat center top;
+    font-family: Times New Roman;
+    position:relative;
+}
+.test_achiv ul li.gold,
+.test_achiv ul li.silver,
+.test_achiv ul li.bronze,
+.test_achiv ul li.completed {
+	overflow: visible;
+	}
+.test_achiv ul li.gold {
+    background: url("tests/ah_gold.png") no-repeat center top;
+	
+}
+
+.test_achiv ul li.silver {
+    background: url("tests/ah_silver.png") no-repeat center top;
+}
+
+.test_achiv ul li.bronze {
+    background: url("tests/ah_bronze.png") no-repeat center top;
+}
+
+.test_achiv ul li.completed {
+    background: url("tests/ah_comp.png") no-repeat center top;
+}
+
+.percent_block .percent_label {
+    font-size:24px;
+    font-weight:bold;
+    line-height:24px;
+    display:block;
+    margin-top:14px;
+}
+
+.percent_block .percent_value {
+    font-weight:bold;
+    display:block;
+    margin-top:6px;
+    font-size:62px;
+    line-height:50px;
+}
+.time_block {
+    font-size:12px;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+.text_block {
+    font-size:16px;
+    font-style: italic;
+    margin-top:50px;
+}
+
+.text_block a {
+    font-size: 22px;
+    font-style: normal;
+    margin-bottom:5px;
+}
+
+.text_block div {
+    padding-bottom: 3px;
+}
+
+.completed .percent_block {
+    display: none;
+}
+
+.completed .time_block {
+    margin-top: 94px;
+}
+
+.not_started .percent_block, .not_started .time_block {
+    display: none;
+}
+
+.not_started .text_block  {
+    margin-top: 158px;
+}
+
+.test_achiv ul li.final {
+    clear: left;
+    display:block;
+    width: 100%;
+    background: url("tests/ah_final_progress.png") no-repeat center top;
+}
+.final .percent_block .percent_value {
+    margin-top: 0;
+}
+.final .percent_block {
+    margin-top:42px;
+}
+
+.test_achiv ul li.final.not_started {
+    background: url("tests/ah_final_none.png") no-repeat center top;
+}
+.test_achiv ul li.final.phase1 {
+    background: url("tests/level-a1.png") no-repeat center top;
+}
+.test_achiv ul li.final.phase2 {
+    background: url("tests/level-a2.png") no-repeat center top;
+}
+.test_achiv ul li.final.phase3 {
+    background: url("tests/level-b1.png") no-repeat center top;
+}
+.final .text_block {
+    margin-top:185px;
+}
+.final .text_block a {
+    letter-spacing:4px;
+}
+.final.not_started .text_block {
+    margin-top: 200px;
+}
+
+.test_achiv ul li.final.completed {
+    background: url("tests/ah_final_done.png") no-repeat center top;
+}
+
+.final.completed .time_block {
+    margin-top: 130px;
+}
+.test_achiv .click_area {
+    display: block;
+    width:168px;
+    height: 150px;
+    position: absolute;
+    left: 30px;
+}
+.test_achiv .final .click_area {
+    display: block;
+    width:194px;
+    height: 175px;
+    position: absolute;
+    left: 356px;
+}
+.t_results .lesson{
+    margin-bottom:20px;
+    height:auto;
+}
+.t_results .clesson {
+    height: auto;
+    margin-left:80px;
+}
+
+.t_results .header_buttons .test_btn {
+    background: none;
+    color: #036;
+    text-decoration: underline;
+    font-weight: normal;
+    text-align:center;
+    cursor:pointer;
+}
+
+.t_results .header_buttons .test_btn:hover {
+    color: #DB0A0A;
+}
+.t_results .header_buttons .show_results {
+    color: #000;
+    background: url("tests/red_test_bg_long.png") transparent no-repeat 0 2px;
+    width: 80px;
+    text-align: center;
+    height:18px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.t_answers .t_correct {
+    clear: both;
+    padding-bottom:10px;
+}
+.t_answers .t_correct div {
+    float: left;
+}
+.t_correct .row_1 {
+    width: 130px;
+    padding-top:5px;
+}
+.t_correct .row_2 {
+    padding-top:5px;
+    padding-left:9px;
+    color:#dd060d;
+    font-weight:bold;
+}
+.t_correct .row_3 {
+    padding-top:5px;
+    padding-left:9px;
+    color:#2ca44a;
+    font-weight:bold;
+    height: 41px;
+}
+.t_correct .t_left {
+    width: 10px;
+    background: url("tests/t_correct_l.png") transparent no-repeat;
+    height: 41px;
+}
+.t_correct .t_right {
+    width: 10px;
+    background: url("tests/t_correct_r.png") transparent no-repeat;
+    height: 41px;
+}
+.t_correct .t_mid {
+    background: url("tests/t_correct_c.png") transparent repeat-x;
+    height: 41px;
+    padding-top:5px;
+}
+.t_correct .row_l {
+    padding: 5px 0 0 20px;
+}
+.test_rest, .test_next {
+	text-decoration: underline;
+}

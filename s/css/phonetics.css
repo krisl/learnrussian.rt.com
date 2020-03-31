@@ -1,0 +1,404 @@
+.phonetics {
+    font-family: Times New Roman;
+}
+
+.phonetics .clesson {
+    padding-left:100px;
+}
+
+.phonetics .clesson h2 {
+    margin-top:30px;
+}
+
+.phonetics h1,.phonetics h2 {
+    font-family: Times New Roman;
+}
+.phonetic_block .playerstwo .playtwo {
+    margin:3px 0 5px 0;
+}
+
+
+.phonetics .phonetic_block {
+    margin-top:30px;
+    margin-left: 58px;
+}
+
+.phonetics .phonetic_block h2{
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.phonetic_block .phonetic_subheader {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top:30px;
+    margin-left: 45px;
+    border-bottom: solid 1px #d9d9d9;
+    margin-bottom:20px;
+    width:601px;
+}
+
+.phonetic_block .part1 {
+    clear:both;
+    position:relative;
+    margin-top:8px;
+}
+
+.phonetic_block .part1 div {
+    float:left;
+}
+.part1 .playerstwo {
+    margin: 0 10px 0 0;
+}
+.phonetic_block .part1 div.nofloat {
+    float: none;
+}
+.phonetic_block .c_red span {
+    color: #dc0b07;
+}
+.phonetic_block .c_blue span {
+    color: #0080cb;
+}
+.phonetic_block .c_grey span {
+    color: #999;
+}
+
+.part1 .left_c {
+    margin-left:8px;
+}
+.part1 .middle_c {
+    font-size:30px;
+}
+.middle_c.loffset {
+    padding-top:6px;
+}
+.part1 .middle_c.fs45 {
+    font-size:45px;
+}
+.part1 .right_c {
+    top:10px;
+    position:absolute;
+    font-size:16px;
+    line-height:21px;
+}
+.right_c.ml_l1 {
+    left:128px;
+}
+.right_c.ml_l2 {
+    left:148px;
+}
+.right_c.ml_l3 {
+    left:138px;
+}
+.right_c.ml_l4 {
+    left:168px;
+}
+.right_c.ml_l5 {
+    left:185px;
+}
+
+.right_c.ml_l0 {
+    left:100px;
+}
+.h60 {
+    height:60px;
+}
+.h100 {
+    height:100px;
+}
+.mt40 {
+    margin-top:40px;
+}
+.mt10 {
+    margin-top:10px;
+}
+.blueborder {
+    width:643px;
+    margin-top:20px;
+    margin-left:20px;
+}
+.blueborder .up {
+    height:11px;
+    background: url("phonetics/blue_border_top.png") no-repeat;
+}
+.blueborder .content {
+    background: url("phonetics/blue_border_mid.png") repeat-y;
+    padding:0 20px;
+    font-size:16px;
+    line-height:24px;
+    color:#33689c;
+}
+.blueborder .down {
+    height:26px;
+    background: url("phonetics/blue_border_bottom.png") no-repeat;
+}
+
+.pt10{
+    padding-top:10px;
+}
+
+.fat_underline {
+    border-bottom:3px solid #000;
+}
+.c_black {
+    color:#000;
+}
+.phonetic_block div.example1 {
+    float:none;
+    width:702px;
+    font-size:24px;
+    text-align: center;
+    margin-top:10px;
+    height:34px;
+}
+
+.phonetic_block div.examples {
+    float: none;
+    position:relative;
+    margin-top: 30px;
+    padding-bottom:60px;
+}
+.phonetic_block .examples div.line {
+    float:none;
+    position:absolute;
+    height:1px;
+    background: #d9d9d9;
+    top:27px;
+    width:702px;
+}
+.phonetic_block .examples div.ex1_3_block {
+    width:116px;
+}
+.phonetic_block .examples div.ex1_3_block div {
+    width:116px;
+}
+.phonetic_block .examples.example_2_1 div.eblock {
+    width:95px;
+}
+.phonetic_block .examples.example_2_1 div.eblock  div {
+    clear:left;
+}
+.phonetic_block .examples.example_2_1 div.eblock .playerstwo {
+    margin: 0;
+}
+.phonetic_block .examples.example_2_1 div.eblock p {
+float:left;
+    
+}
+
+.examples.example_2_1 div.block div {
+    width:auto
+}
+.phonetic_block .examples.example_2_1 {
+    margin-left:43px;
+    margin-top:10px;
+}
+
+.phonetic_block .examples .ex_title {
+    float:none;
+    font-size:30px;
+    line-height:30px;
+    font-weight:bold;
+    padding-bottom:10px;
+}
+.phonetic_block .examples p {
+    font-size:16px;
+    line-height:29px;
+}
+
+.part1_2 {
+    margin-top:38px;
+    margin-left:15px;
+}
+
+.part1_2 .playerstwo {
+    margin:0;
+}
+
+.part1_2 .p_header {
+    font-size:15px;
+    font-weight:bold;
+    margin-left:25px;
+    margin-bottom:5px;
+}
+
+.fl_l {
+    float: left;
+}
+
+.clr_l {
+    clear: left;
+}
+
+.ml_10 {
+    margin-left:10px;
+}
+
+.p1_2_letters {
+    font-size: 24px;
+    float: left;
+    padding-right:50px;
+}
+.part1_2 .p1_2_vs {
+    margin-left:25px;
+    margin-top:10px;
+    clear: left;
+    float: left;
+    font-size: 16px;
+    position: relative;
+    height:30px;
+    width: 400px;
+}
+.part1_2 .p1_2_abs {
+    position: absolute;
+    left: 80px;
+    top:0;
+    clear: left;
+    
+}
+.p1_2_vs span {
+    line-height:26px;
+}
+.part1_2 .p12_column {
+    float: left;
+    width:240px;
+    
+}
+.p12_column .p_header {
+    font-size:15px;
+    font-weight:bold;
+    margin-left:25px;
+}
+.p12_column div {
+    font-size:24px;
+    
+}
+.p12_column .playerstwo {
+    margin:0;
+}
+
+.phonetics .breadcrumb {
+    font-size:16pt;
+    padding:0;
+    margin-left:0;
+    height:40px;
+}
+.phonetics .breadcrumb a {
+    text-decoration: none;
+    border-bottom:1px dashed;
+    color:#023467;
+}
+.phonetics .breadcrumb a.active {
+    color:#d80b08;
+    border: none;
+}
+
+.example_2_2_block {
+    float: left;
+    width:320px;
+    height:110px;
+    margin-left:40px;
+    margin-top:10px;
+}
+.example_2_2_block div.block {
+    float: left;
+    width: 50px;
+}
+.example_2_2_block .playerstwo .playtwo {
+    margin: 3px 0 0;
+}
+.example_2_2_block div.block.letter {
+    padding-top:8px;
+}
+
+.example_2_2_block div.block p{
+    font-size:16px;
+    line-height:29px;
+}
+
+.example_2_3 {
+    
+}
+
+.example_2_3 .block {
+   float: left;
+   width:360px;
+   margin-top:25px;
+}
+
+.example_2_3 .eleft_c {
+    padding-right:8px;
+    margin-left:8px;
+    float:left;
+}
+.example_2_3 .emiddle_c{
+    font-size:30px;
+    float:left;
+    height:40px;
+}
+
+.example_2_3 .eright_c {
+    padding-top:10px;
+    font-size:16px;
+    line-height:21px;
+    margin-left:20px;
+    float:left;
+}
+.example_2_3 .playerstwo {
+    margin: 0;
+}
+
+.pt6 {
+    padding-top:6px;
+}
+
+.example_3_block {
+    float: left;
+    width:340px;
+    margin-left:13px;
+    padding-bottom:60px;
+}
+
+.example_3_block .example_subheader {
+    font-size:16px;
+    font-weight: bold;
+    margin-top:5px;
+    padding-bottom:15px;
+}
+.example_3_block .playerstwo {
+    margin:0;
+}
+.example_3_block .block_margin {
+    margin-left:30px;
+}
+.example_3_block .example3_subtext {
+    float: left;
+    font-size:15px;
+    padding-top: 7px;
+}
+
+.yellow_frame {
+    width:279px;
+    margin-left:13px;
+    margin-top:15px;
+}
+
+.yellow_frame div.top {
+    background: url("phonetics/yellow_border_top.png") no-repeat;
+    height:13px;
+}
+
+.yellow_frame div.mid {
+    background: url("phonetics/yellow_border_mid.png") repeat-y;
+    padding: 0 16px;
+    font-size:16px;
+    line-height:21px;
+}
+.yellow_frame div.mid p {
+    padding-bottom:10px; 
+}
+
+.yellow_frame div.bottom {
+    background: url("phonetics/yellow_border_bottom.png") no-repeat;
+    height:13px;
+}

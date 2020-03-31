@@ -1,0 +1,289 @@
+.tablesblock {font-size:16px; position:relative; margin-bottom:40px;}
+.tablesblock .picture {float:right; text-align:center;}
+/*.pdf {display:inline-block; background:url(/s/css/tables/pdf.gif) left center no-repeat; padding:8px 0 7px 37px;}*/
+.pdf {
+    background: url(/s/css/tables/pdf.gif) no-repeat scroll left center transparent;
+    display: block;
+    float: left;
+    height: 36px;
+    margin: -7px 6px 0 0;
+    width: 29px;
+}
+.underline_grey {border-bottom:#d9d9d9 1px solid; display:inline-block; width:120px;}
+.female, .male {background:url(/s/css/tables/female.gif) 0 0 no-repeat; display:inline-block; height:21px; width:21px; vertical-align:middle; margin-right:3px;}
+.male {background-image:url(/s/css/tables/male.gif);}
+.tables thead th {text-align:left; font-size:22px; font-weight:normal;}
+.tables th {width:150px; padding:3px 0;}
+.tables td {width:127px; padding:3px 0 3px 23px;}
+.malecolor {color:#385eff;}
+.femalecolor {color:#e52266;}
+.black {color:#000;}
+.grey {color:#999;}
+.red {color:rgb(219, 10, 10);}
+.blue {color:rgb(0, 128, 203);}
+.italic {font-style:italic;}
+.bold {font-weight:bold;}
+.vam {vertical-align:middle;}
+.vat {vertical-align:top;}
+.tac {text-align:center;}
+.tal {text-align:left;}
+.tar {text-align:right;}
+.ff_a {font-family:Arial;}
+.fs12 {font-size:12px!important;}
+.fs16 {font-size:16px!important;}
+.fs22 {font-size:22px!important;}
+.bordered {border-bottom:rgb(221, 223, 222) 1px solid;}
+.noborder, .noborder * {border:0 none!important;}
+.fwn, .fwn * {font-weight:normal!important;}
+.w180 {width:180px;}
+.w200 {width:200px;}
+.w210 {width:210px;}
+.w260 {width:260px;}
+.w305 {width:305px;}
+.w335 {width:335px;}
+.w360 {width:360px;}
+.w500 {width:500px;}
+.w520 {width:520px;}
+.w540 {width:540px;}
+.w600 {width:600px;}
+.w660 {width:660px;}
+.w670 {width:670px;}
+.fl {float:left;}
+.fr {float:right;}
+.clr_l {clear:left;}
+.clr_r {clear:right;}
+.clr {clear:both;}
+.db {display:block;}
+.dib {display:inline-block;}
+.pt5 {padding-top:5px;}
+.pt10 {padding-top:10px;}
+.pt15 {padding-top:15px;}
+.pt17 {padding-top:17px;}
+.pt20 {padding-top:20px;}
+.pt22 {padding-top:22px;}
+.pt30 {padding-top:30px;}
+.pt50 {padding-top:50px;}
+.pt57 {padding-top:57px;}
+.pr15 {padding-right:15px;}
+.pr50 {padding-right:50px;}
+.pl20 {padding-left:20px;}
+.pl30 {padding-left:30px;}
+.pb5 {padding-bottom:5px;}
+.pb20 {padding-bottom:20px;}
+.pb50 {padding-bottom:50px;}
+.mr20 {margin-right:20px;}
+.mt-50 {margin-top:-50px;}
+.mt-20 {margin-top:-20px;}
+.mt5 {margin-top:5px;}
+.mt10 {margin-top:10px;}
+.mt20 {margin-top:20px;}
+.mt30 {margin-top:30px;}
+.mt40 {margin-top:40px;}
+.mt50 {margin-top:50px;}
+.mt70 {margin-top:70px;}
+.mb10 {margin-bottom:10px!important;}
+.mb20 {margin-bottom:20px!important;}
+.mb30 {margin-bottom:30px!important;}
+.mb50 {margin-bottom:50px!important;}
+.mb70 {margin-bottom:70px!important;}
+.mb100 {margin-bottom:100px!important;}
+.ml5 {margin-left:5px;}
+.ml20 {margin-left:20px;}
+.ml30 {margin-left:30px;}
+.ml70 {margin-left:70px;}
+.ml80 {margin-left:80px;}
+.ml105 {margin-left:105px;}
+.ml140 {margin-left:140px;}
+.ml-90 {margin-left:-90px!important;}
+.ml-35 {margin-left:-35px!important;}
+.genderstable {display:table-row;}
+.genderstable div {padding:10px; display:table-cell; border-bottom:rgb(221, 223, 222) 1px solid; border-top:#FFF 20px solid; min-width:120px;}
+.genderstable div:first-child {background-color:rgb(221, 223, 222); width:73px;}
+.genderstable p {line-height:22px; padding-bottom:10px;}
+.genderstable b, .genderstable p.red {font-size:22px;}
+.oh {overflow:hidden;}
+.half {float:left; width:250px; margin-left:20px;}
+.half p {padding-left:40px; padding-bottom:10px;}
+.oh .half:first-child {margin-left:0;}
+.letter_a, .noletter_a {display:table-cell; background:url(/s/css/tables/a.gif) left center no-repeat; padding-left:40px; height:35px; line-height:35px;}
+.noletter_a {background-image:url(/s/css/tables/a_no.gif);}
+.v20 {padding-top:20px!important; padding-bottom:20px!important;}
+.countres thead th {text-align:left; border-bottom:rgb(221, 223, 222) 1px solid; padding-top:0;}
+.countres thead th:first-child {border-bottom-width:0; padding-right:10px;}
+.countres .grey {font-weight:normal; display:block; line-height:12px;}
+.countres th, .countres td {padding:5px 0 5px 0; vertical-align:top;/*width:35px;*/text-align:left;/*font-size: 15px;*//*letter-spacing: -1px;*/}
+.countres th p , .countres td p {padding:2px 0;}
+.countres th +th, .countres td +td {padding:5px 0;}
+#table-4 .countres th +th +th +th +th +th +th +th, 
+#table-4 .countres td +td +td +td +td +td +td +td{
+	width:102px;
+	}
+#table-4 .countres th +th +th +th +th +th +th , 
+#table-4 .countres td +td +td +td +td +td +td {
+	width:120px;
+	}
+#table-4 .countres th +th +th +th +th +th , 
+#table-4 .countres td +td +td +td +td +td {
+	width:110px;
+	}
+#table-4 .countres th +th +th +th +th, 
+#table-4 .countres td +td +td +td +td {
+	width:105px;
+	}
+#table-4 .countres th +th +th +th, 
+#table-4 .countres td +td +td +td {
+	width:104px;
+	}	
+#table-4 .countres th +th +th , 
+#table-4 .countres td +td +td{
+	width:170px;
+	}
+#table-4.countres th +th , 
+#table-4 .countres td +td{	
+	width:270px;
+	}
+#table-4 .countres th, 
+#table-4 .countres td{	
+	width:32px;
+	}
+#table-4 .table {font-family: Times New Roman;}
+#table-4 .zagtable{margin:10px 0 10px 100px;}
+#table-4 .zagtable h1,#table-57 .zagtable h1{
+	font-size: 42px;
+    font-weight: normal;
+	}
+#table-4 .zagtable .breadcrumb{
+		margin: 10px 0;
+		font-size:15px;
+		}
+.countres tr td:first-child {padding-top:12px;/* padding-right:10px;*/}
+.nowrap {white-space:nowrap;}
+.brace {background-image:none;}
+.brace tr td {background:url(/s/css/tables/brace_r.gif) 100% 0 no-repeat; padding-top:15px;}
+.brace tr td:first-child {background:url(/s/css/tables/brace_l.gif) 0 0 no-repeat;}
+.brace tr td.brace_place {background:url(/s/css/tables/brace.gif) center top no-repeat; text-align:center; padding-right:20px;}
+/*.braceu {background-image:none;}*/
+.braceu tr td {background:url(/s/css/tables/braceu_r.gif) 100% 0 no-repeat; padding-top:15px;}
+.braceu tr td:first-child {background:url(/s/css/tables/braceu_l.gif) 0 0 no-repeat;}
+.braceu tr td.braceu_place {background:url(/s/css/tables/braceu.gif) center top no-repeat; text-align:center;}
+.vbrace_place {background:url(/s/css/tables/brace.png) left center no-repeat; padding-left:15px;}
+.vbrace_u {background:url(/s/css/tables/brace_u.png) left top no-repeat;}
+.vbrace_d {background:url(/s/css/tables/brace_d.png) left bottom no-repeat;}
+.vlbrace_place {background:url(/s/css/tables/lbrace.png) right center no-repeat; padding-left:15px;}
+.vlbrace_u {background:url(/s/css/tables/lbrace_u.png) right top no-repeat;}
+.vlbrace_d {background:url(/s/css/tables/lbrace_d.png) right bottom no-repeat;}
+.simpletable thead th {text-align:left; border-bottom:rgb(221, 223, 222) 1px solid;}
+.simpletable th, .simpletable td {padding:7px 20px 7px 0; vertical-align:top;}
+.titltgrey {background-color:rgb(221, 223, 222); font-size:22px; padding:5px 10px;}
+.simpletable2 td {padding:30px 10px 5px 5px;}
+.simpletable2 tbody td {border-bottom:rgb(221, 223, 222) 1px solid;}
+.simpletable2 tbody tr td:first-child {font-size:22px;}
+.blockwithimage {background-repeat:no-repeat; padding-left:80px; min-height:80px; padding-bottom:30px;}
+.reference {background:url(/s/css/tables/reference.jpg) 0 0 no-repeat; width:0; overflow:hidden; padding-left:77px; height:77px;}
+.titlegrey {background-color:rgb(221, 223, 222); display:inline-block; font-size:16px; width:160px; padding:5px 10px; vertical-align:middle;}
+.titlegrey2 {margin-left: -3px; padding-left: 3px; background-color:rgb(221, 223, 222);}
+.titlegrey3 {margin-left: -5px; padding: 5px; background-color:rgb(221, 223, 222);}
+.simpletable3 thead td {width: 200px; text-align:left; background-color:rgb(221, 223, 222); font-size: 18px; font-weight:bold;}
+.simpletable3 td {padding:6px 20px 6px 5px; vertical-align:top; font-family: Times New Roman;}
+.simpletable3 td { font-size: 16px;}
+.simpletable3 .td1 {font-weight:bold; border-bottom:rgb(221, 223, 222) 1px solid; padding: 15px 5px 3px 5px;}
+.simpletable4 {border-spacing: 25px 0px;}
+.simpletable4 thead th {background-color:rgb(221, 223, 222); font-size: 16px; font-family: Times New Roman;}
+.simpletable4 th, .simpletable4 td {width: 190px; text-align: center; vertical-align:top; margin: 15px;}
+.simpletable4 td { padding:20px 5px 20px 5px; font-size: 20px; font-family: Georgia;}
+.tnr16 {font-size: 16px; font-family: Times New Roman;}
+.tnr20 {font-size: 20px; font-family: Times New Roman;}
+.tnr22 {font-size: 22px; font-family: Times New Roman;}
+.tnr24 {font-size: 24px; font-family: Times New Roman;}
+.tnr30 {font-size: 30px; font-family: Times New Roman;}
+.tnr40 {font-size: 40px; font-family: Times New Roman;}
+.v11 {font-size: 11px!important; font-family: verdana;}
+.g14 {font-size: 14px; font-family: Georgia;}
+.g20 {font-size: 20px; font-family: Georgia;}
+.g22 {font-size: 22px; font-family: Georgia;}
+.g26 {font-size: 26px; font-family: Georgia;}
+.trebuchet12 {font-size: 12px; font-family: Trebuchet MS;}
+.bb1 {border-bottom:rgb(221, 223, 222) 1px solid;}
+.bdashed {border: 1px dashed rgb(153, 153, 153);}
+.simpletable5 {border-spacing: 0px; margin-top: 30px;}
+.simpletable5 td {vertical-align:top; padding-right:25px;}
+.simpletable5 td:first-child {width: 85px;}
+.simpletable5 .td1 {font-weight:bold; font-size: 16px; font-family: Times New Roman;}
+.simpletable5 .td2 {padding-top:5px; font-weight:bold; font-size: 14px; font-family: Times New Roman;}
+.simpletable5 .td3 {padding-top:50px; font-size: 24px; font-family: Times New Roman;}
+.simpletable5 .td4 {width:118px;padding-bottom:5px; border-bottom:rgb(221, 223, 222) 1px solid; font-size: 16px; font-family: Times New Roman;}
+.simpletable5 .td5 {width:118px;padding-bottom:15px; font-size: 16px; font-family: Times New Roman;}
+.simpletable6 {border-spacing: 0px; margin-left:105px; margin-top: 10px; margin-bottom:80px;}
+.simpletable6 td {width:195px; vertical-align:top; padding-right:20px;}
+.simpletable6 .td1 {font-size: 24px; font-family: Times New Roman;}
+.simpletable6 .td2 {padding-top:5px; font-size: 14px; font-family: Times New Roman;}
+.simpletable6 .td3 {padding-top:5px; padding-bottom:20px; text-align: center;}
+.simpletable7 {border-spacing: 0px; margin-left:20px; margin-top: 20px;}
+.simpletable7 td {vertical-align:top;}
+.simpletable7 .td0 {width: 70px; padding-top: 22px; font-size: 24px; font-family: Times New Roman;}
+.simpletable7 .td1, .simpletable7 .td3, .simpletable7 .td5, .simpletable7 .td7 {width: 160px;}
+.simpletable7 .td2, .simpletable7 .td4, .simpletable7 .td6, .simpletable7 .td8 {width: 40px;}
+.simpletable7 .td3, .simpletable7 .td4 {padding-top: 10px;}
+.simpletable7 .td5, .simpletable7 .td6, .simpletable7 .td7, .simpletable7 .td8 {padding-top: 30px; padding-bottom: 10px;}
+.simpletable7 .td1 {font-size: 16px; font-family: Times New Roman; font-weight: bold;}
+.simpletable7 .td3 {font-size: 14px; font-family: Times New Roman; font-weight: bold;}
+.simpletable7 .td5 {font-size: 14px; font-family: Times New Roman; border-bottom:rgb(221, 223, 222) 1px solid;}
+.simpletable7 .td6 {border-bottom:rgb(221, 223, 222) 1px solid;}
+.simpletable7 .td7 {font-size: 14px; font-family: Times New Roman;}
+.simpletable8 {border-spacing: 0px; margin-left:20px; margin-top: 20px; margin-bottom:10px;}
+.simpletable8 td {width:215px; vertical-align:top; padding-top: 9px; padding-bottom: 3px; /*padding-right: 30px;*/ padding-bottom: -2px;}
+.simpletable8 .td0 {width: 75px; padding-top: 0px; padding-bottom: 0px; font-size: 24px; font-family: Times New Roman;}
+.simpletable8 .td1 {font-size: 16px; font-family: Times New Roman; font-weight: bold;}
+.simpletable8 .td2 {font-size: 16px; font-family: Times New Roman; font-weight: bold;}
+.simpletable8 .td3 {font-size: 16px; font-family: Times New Roman;}
+.simpletable9 {border-spacing: 0px; margin-left:20px; margin-top: 20px;}
+.simpletable9 td {vertical-align:top; padding-bottom: 10px;}
+.simpletable9 .td1, .simpletable9 .td2, .simpletable9 .td4 {width: 80px;}
+.simpletable9 .td1 {font-size: 16px; font-family: Times New Roman; font-weight: bold;}
+.simpletable9 .td2 {font-size: 14px; font-family: Times New Roman; font-weight: bold;}
+.simpletable9 .td3 {width: 30px; text-align: center; font-size: 14px; font-family: Times New Roman;}
+.simpletable9 .td4 {font-size: 14px; font-family: Times New Roman;}
+.simpletable9 .td5 {padding-left: 80px; font-size: 14px; font-family: Times New Roman;}
+.simpletable10 {border-spacing: 0px; margin-left:20px; margin-top: 20px;}
+.simpletable10 td {vertical-align:top; padding-right: 30px; padding-bottom: 10px; font-size: 16px; font-family: Times New Roman;}
+.simpletable11 {border-spacing: 0px; margin-left:20px; margin-top: 20px;}
+.simpletable11 td {vertical-align:top; padding-bottom: 10px; padding-top: 30px;}
+.simpletable11 .td1, .simpletable11 .td3 {width: 100px; font-size: 30px; font-family: Times New Roman;}
+.simpletable11 .td2, .simpletable11 .td4 {width: 170px; text-align: center;}
+.simpletable11 .td3, .simpletable11 .td4 {border-bottom:rgb(221, 223, 222) 1px solid;}
+.simpletable12 {border-spacing: 0px; margin-left:0px; margin-top: 20px;}
+.simpletable12 .td2 {padding-right: 8px; text-align: right; font-size: 16px; font-family: Times New Roman; font-weight:bold;}
+.simpletable12 .td3 {padding-right: 50px; font-size: 16px; font-family: Times New Roman;}
+.simpletable13 {border-spacing: 0px;}
+.simpletable13 td {width: 95px; padding-left:5px; padding-right:5px; vertical-align:top; text-align: center;}
+.simpletable14 {border-spacing: 0px;}
+.simpletable14 td {vertical-align:top; padding-right: 30px; text-align: left; font-size: 16px; font-family: Times New Roman;}
+.simpletable14 .td1 {font-size: 18px; font-weight: bold;}
+.simpletable14 .td2 {width: 90px; padding-top: 20px; padding-bottom:10px;}
+.simpletable14 .td3 {width: 250px; padding-top: 20px; padding-bottom:10px;}
+.simpletable14 .td3 p {padding-top: 6px; padding-bottom:2px;}
+.simpletable15 {border-spacing: 0px;}
+.simpletable15 td {width:130px; padding-bottom:50px; vertical-align:top; font-size: 16px; font-family: Times New Roman;}
+.simpletable16 {border-spacing: 0px;}
+.simpletable16 td {width: 165px; padding-left:5px; padding-right:5px; vertical-align:top; text-align: center;}
+.simpletable17 {border-spacing: 0px;}
+.simpletable17 td {width: 250px; padding-right:100px; vertical-align:top; text-align: left;}
+.simpletable17 .td1 {font-size: 22px; font-family: Times New Roman; padding-bottom:10px;}
+.simpletable17 .td2 {font-size: 16px; font-family: Times New Roman; padding-bottom:50px;}
+.simpletable18 {border-spacing: 0px;}
+.simpletable18 td {vertical-align:top; text-align: left;}
+.simpletable18 .tdhead {font-size: 18px; font-family: Times New Roman; font-weight: bold;}
+.simpletable18 .tdleft {width: 120px; border-bottom:rgb(221, 223, 222) 1px solid; font-size: 24px; font-family: Times New Roman;}
+.simpletable18 .tdbold {padding-bottom: 5px; font-size: 16px; font-family: Times New Roman; font-weight: bold;}
+.simpletable18 .tdusual {border-bottom:rgb(221, 223, 222) 1px solid; padding-bottom: 5px; font-size: 16px; font-family: Times New Roman;}
+.simpletable18 .first {width: 250px; padding-right: 40px;}
+.simpletable18 .second {width: 250px;}
+.simpletable19 {border-spacing: 0px;}
+.simpletable19 td {width: 330px; padding-right:20px; vertical-align:top; text-align: left; font-size: 16px; font-family: Times New Roman;}
+
+/* Fuck */
+.lesson, .task {padding-left:80px;}
+.clesson, .tablesblock {overflow:visible!important;}
+.clesson:before, .clesson:after, .tablesblock:before, .tablesblock:after {content:""; display:table; }
+.clesson:after, .tablesblock:after {clear:both}
+.r-star-shape b {font-family:Arial;}
