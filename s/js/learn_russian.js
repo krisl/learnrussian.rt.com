@@ -901,8 +901,8 @@ if(BrowserDetect.browser=='Opera'){
 	SmallPlayerControl = SmallPlayerControl(AudioPlayerHTML5);
 	
 }else{
-	LongPlayerControl = LongPlayerControl(AudioPlayerSWF);
-	SmallPlayerControl = SmallPlayerControl(AudioPlayerSWF);
+	LongPlayerControl = LongPlayerControl(AudioPlayerHTML5);
+	SmallPlayerControl = SmallPlayerControl(AudioPlayerHTML5);
 
 }
 /************************************************************************************
