@@ -1815,13 +1815,8 @@ $(function lessons_autorun(){
 	AudioPlayerHTML5.init();
 	AudioPlayerHTML5.bind_onplaying(LongPlayerControl.onplaying);
 	AudioPlayerHTML5.bind_onplaying(SmallPlayerControl.onplaying);
-	AudioPlayerSWF.init();
-	AudioPlayerSWF.bind_onplaying(LongPlayerControl.onplaying);
-	AudioPlayerSWF.bind_onplaying(SmallPlayerControl.onplaying);
 	LongPlayerControl.init();
 	SmallPlayerControl.init();
-	//AudioPlayerSWF.bind_onswfready(LongPlayerControl.init);
-	//AudioPlayerSWF.bind_onswfready(SmallPlayerControl.init);
 	
 	// Init lessons
 	LessonsCustomControl.init();
