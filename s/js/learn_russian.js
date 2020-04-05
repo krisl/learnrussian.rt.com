@@ -554,7 +554,13 @@ var AudioPlayerHTML5=(function AudioPlayerHTML5_constructor(){
 		} else {
 			source= url.replace('.mp3','.ogg');
 		}
-		player && url && (player.src=source);
+		
+		
+		if (player && url && (!player.src.endsWith(source))) {
+			console.log('setting', {url});
+			console.log('player.src', player.src);
+			(player.src=source);
+		}
 		player && player.play();
 	}
 	function stop(){
