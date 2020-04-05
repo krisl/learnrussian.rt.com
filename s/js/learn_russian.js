@@ -561,21 +561,18 @@ var LongPlayerControl = (function LongPlayerControl_constructor(AudioPlayer){
 	}
 	function clickstrip_down_handler(e){
 		e.preventDefault();
-		var isItPlayingOne = $(e.target).parent('.players').hasClass('playing');
-		if(seeking || !isItPlayingOne) return;
+		if(seeking) return;
 		seeking=true;
 		clickstrip_generic_handler(e);
 	}
 	function clickstrip_move_handler(e){
 		e.preventDefault();
-		var isItPlayingOne = $(e.target).parent('.players').hasClass('playing');
-		if(!seeking || !isItPlayingOne) return;
+		if(!seeking) return;
 		clickstrip_generic_handler(e);
 	}
 	function clickstrip_up_handler(e){
 		e.preventDefault();
-		var isItPlayingOne = $(e.target).parent('.players').hasClass('playing');
-		if(!seeking || !isItPlayingOne) return;
+		if(!seeking) return;
 		seeking=false;
 		clickstrip_generic_handler(e);
 	}
