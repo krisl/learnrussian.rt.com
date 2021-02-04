@@ -1,3 +1,5 @@
+---
+---
 .test_results_array
 {
   display: none;
@@ -440,7 +442,7 @@
 /* end players*/
 
 .plpau{
-	background: url(lessons/playpause.png) no-repeat scroll -6px -2px transparent;
+	background: url({{site.cssurl}}lessons/playpause.png) no-repeat scroll -6px -2px transparent;
 	height:12px;		
 	width:14px;
 	margin:0 5px;
