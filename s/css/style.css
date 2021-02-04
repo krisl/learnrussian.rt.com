@@ -1,3 +1,5 @@
+---
+---
 *{
   margin: 0px;	
   padding: 0px;
@@ -66,7 +68,7 @@ a.underline:hover, a:hover span.underline{
     height: auto !important;
     height: 100%;
     position: relative;
-	background:url(images/bgheader.jpg) repeat-x 0 0 transparent;
+	background:url({{ site.cssurl }}images/bgheader.jpg) repeat-x 0 0 transparent;
 	min-width:990px;
 	}
 	/* #header */
@@ -141,7 +143,7 @@ a.underline:hover, a:hover span.underline{
 			.logo{
 				margin:10px;
 				float:left;
-				background:url(images/logo.png) no-repeat 0 0 transparent;
+				background:url({{ site.cssurl }}images/logo.png) no-repeat 0 0 transparent;
 				width:155px;
 				height:68px;
 				}
@@ -162,7 +164,7 @@ a.underline:hover, a:hover span.underline{
 				   cursor:pointer;
 				   }*/
 					.menu div.hmenu ul li{
-						background:url(images/menuicon1.png) no-repeat 4px 6px transparent;
+						background:url({{ site.cssurl }}images/menuicon1.png) no-repeat 4px 6px transparent;
 						/*border:1px solid red;*/
 						width:70px;
 						float:left;
@@ -281,7 +283,7 @@ a.underline:hover, a:hover span.underline{
 					color: #999;
 					}
 				.registration  li.key{
-					background:url(images/keyregastration.png) no-repeat 0 3px transparent;
+					background:url({{ site.cssurl }}images/keyregastration.png) no-repeat 0 3px transparent;
 					/*height:16px;*/
 					margin:5px 0;
 					}
@@ -307,10 +309,10 @@ a.underline:hover, a:hover span.underline{
 				position: absolute;
 				top: -18px;
 				width: 19px;
-				background:url(images/r-star.png);
+				background:url({{ site.cssurl }}images/r-star.png);
 				}
 			.r-star-shape .cn.rr{
-				background:url(images/rr-star.png);
+				background:url({{ site.cssurl }}images/rr-star.png);
 				}
 			.r-star-shape .cn.tr, .r-star-shape .cn.br {
 				margin-left:100%;
@@ -322,10 +324,10 @@ a.underline:hover, a:hover span.underline{
 				width:100%;
 				} 				
 			.r-star-shape .conten{				
-				background:url(images/centerconten.png) repeat-y;
+				background:url({{ site.cssurl }}images/centerconten.png) repeat-y;
 				}
 			.r-star-shape .conten.rr {
-				background: url(images/rcenterconten.png) repeat-y scroll 1px 0 transparent;
+				background: url({{ site.cssurl }}images/rcenterconten.png) repeat-y scroll 1px 0 transparent;
 				}
 			.r-star-shape .conten.cr{
 			    background-position: 100% 0;
@@ -373,7 +375,7 @@ a.underline:hover, a:hover span.underline{
 				line-height:18px;
 				}
 			.main ul li{
-			    background:url(images/mainli.png) no-repeat 0 10px transparent;
+			    background:url({{ site.cssurl }}images/mainli.png) no-repeat 0 10px transparent;
 				list-style:none;
 				padding:5px 0 1px 15px;
 				margin:5px 0 0;
@@ -387,13 +389,13 @@ a.underline:hover, a:hover span.underline{
 				padding: 12px 0 1px 35px;
 				}
 			.main ul.bul li.bul_1{
-				background: url(main/1_bul.png) no-repeat scroll 0 10px transparent;
+				background: url({{ site.cssurl }}main/1_bul.png) no-repeat scroll 0 10px transparent;
 				}
 			.main ul.bul li.bul_2{
-				background: url(main/2_bul.png) no-repeat scroll 0 10px transparent;
+				background: url({{ site.cssurl }}main/2_bul.png) no-repeat scroll 0 10px transparent;
 				}
 			.main ul.bul li.bul_3{
-				background: url(main/3_bul.png) no-repeat scroll 0 10px transparent;
+				background: url({{ site.cssurl }}main/3_bul.png) no-repeat scroll 0 10px transparent;
 				}
 			.main .left .r-star-shape{
 				width:400px;
@@ -403,11 +405,11 @@ a.underline:hover, a:hover span.underline{
 					margin:-5px 0 -5px 120px;
 					}
 				.main .registration .up{
-					background:url(images/upbgregistration.png) no-repeat 0 0 transparent;
+					background:url({{ site.cssurl }}images/upbgregistration.png) no-repeat 0 0 transparent;
 					height:28px;					
 					}
 				.main .registration .center{
-					background:url(images/centerbgregistration.png) repeat-y 0 0 transparent;
+					background:url({{ site.cssurl }}images/centerbgregistration.png) repeat-y 0 0 transparent;
 					padding:0 15px;
 					}
 					
@@ -431,7 +433,7 @@ a.underline:hover, a:hover span.underline{
 								margin: -3px -10px;
 								}
 						.main .registration .center ul li.entersite{
-							background:url(main/entersite.png) no-repeat -115px 0 transparent;
+							background:url({{ site.cssurl }}main/entersite.png) no-repeat -115px 0 transparent;
 						    }
 						.main .registration .center ul li a{
 								display:block;
@@ -444,7 +446,7 @@ a.underline:hover, a:hover span.underline{
 								margin: -3px -10px;
 								}
 						.main .registration .center ul li.regsite{
-							background:url(main/regsite.png) no-repeat -115px 0 transparent;
+							background:url({{ site.cssurl }}main/regsite.png) no-repeat -115px 0 transparent;
 							}
 						.main .registration .center ul li.regsite.hover:hover{
 							background-position:-228px 0;
@@ -457,7 +459,7 @@ a.underline:hover, a:hover span.underline{
 							cursor:pointer;
 							}
 						.main .registration .bgemail{
-							background:url(main/bgemail.png) no-repeat 0 0 transparent;
+							background:url({{ site.cssurl }}main/bgemail.png) no-repeat 0 0 transparent;
 							width:286px;
 							height:26px;
 							margin:10px 0 10px 57px;
@@ -469,7 +471,7 @@ a.underline:hover, a:hover span.underline{
 								width:215px;
 								}
 						.main .registration .bgpassword{
-							background:url(main/bgpassword.png) no-repeat 0 0 transparent;
+							background:url({{ site.cssurl }}main/bgpassword.png) no-repeat 0 0 transparent;
 							height: 26px;
 							margin:10px auto 10px;
 							width: 304px;
@@ -481,7 +483,7 @@ a.underline:hover, a:hover span.underline{
 								width:215px;
 								}
 							.main .registration .bgshowpassword{
-								background:url(main/showpassword.png) no-repeat 100% 0 transparent;
+								background:url({{ site.cssurl }}main/showpassword.png) no-repeat 100% 0 transparent;
 								height: 16px;
 								margin: 10px 0 10px 125px;
 								width:112px;
@@ -493,7 +495,7 @@ a.underline:hover, a:hover span.underline{
 									}
 							.main .registration .passres{
 								float:right;
-								background:url(main/passres.png) no-repeat 0 50% transparent;
+								background:url({{ site.cssurl }}main/passres.png) no-repeat 0 50% transparent;
 								height: 22px;
 								margin:	11px 22px 0 0;
 								width: 113px;
@@ -509,7 +511,7 @@ a.underline:hover, a:hover span.underline{
 							
 							.main .registration  .button{
 								margin:10px 0 0 115px;
-								background:url(main/buttonenterregistration.png) no-repeat 0 0 transparent;
+								background:url({{ site.cssurl }}main/buttonenterregistration.png) no-repeat 0 0 transparent;
 								height:33px;
 								margin: 10px 0 0 120px;
 								width:93px;
@@ -539,7 +541,7 @@ a.underline:hover, a:hover span.underline{
 								background-position:-201px -43px;
 								}				
 				.main .registration .down{
-					background:url(images/downbgregistration.png) repeat-y 0 0 transparent;
+					background:url({{ site.cssurl }}images/downbgregistration.png) repeat-y 0 0 transparent;
 					height:51px;
 					}	
 .checkbox{
@@ -560,7 +562,7 @@ a.underline:hover, a:hover span.underline{
 		font-size:12px;		
 		height:297px;
 		width:100%;
-		background:url(images/bgfooter.jpg) repeat-x 100% 0 #dbdcde;
+		background:url({{ site.cssurl }}images/bgfooter.jpg) repeat-x 100% 0 #dbdcde;
 		}
 	#footer .in{	
 		padding:10px 10px 0;
@@ -597,7 +599,7 @@ a.underline:hover, a:hover span.underline{
 			margin:5px 0;
 			}
 		/*.bgfooter{
-			background:url(images/bgfooter.jpg) repeat-x 100% 100% transparent;
+			background:url({{ site.cssurl }}images/bgfooter.jpg) repeat-x 100% 100% transparent;
 			height: 145px;
 			min-width:990px;
             margin: -145px 0 0;
@@ -608,16 +610,16 @@ a.underline:hover, a:hover span.underline{
 .table_list th:first-child {width: 65px;}
 
 .restore h1 {font-size: 42px; font-weight: normal; font-weight: normal; text-align: left; margin: 0 0 0 0; font-family: Times New Roman;}
-.restore .bgemail {background: url("/s/css/restore/email.png") no-repeat scroll 0 0 transparent; height: 30px; margin: 25px 0 10px 0px; width: 387px;}
+.restore .bgemail {background: url("{{ site.cssurl }}restore/email.png") no-repeat scroll 0 0 transparent; height: 30px; margin: 25px 0 10px 0px; width: 387px;}
 .restore .bgemail input {background: none repeat scroll 0 0 transparent; border: medium none; margin: 6px 0 0 58px; width: 315px;}
-.restore .button {background: url("/s/css/restore/restore.png") no-repeat scroll 0 0 transparent; width: 87; height: 36; margin: 25px 0 0 52px;}
+.restore .button {background: url("{{ site.cssurl }}restore.png") no-repeat scroll 0 0 transparent; width: 87; height: 36; margin: 25px 0 0 52px;}
 .restore .button a {display: block; height: 34px; width: 85px; margin: 1px;}
 
 .profile h1 {font-size: 42px; font-weight: normal; font-weight: normal; text-align: left; margin: 0 0 0 0; font-family: Times New Roman;}
-.profile .change .old {background: url("/s/css/profile/old.png") no-repeat scroll 0 0 transparent; height: 32px; margin: 25px 0 10px 0px; width: 434px;}
-.profile .change .new {background: url("/s/css/profile/new.png") no-repeat scroll 0 0 transparent; height: 32px; margin: 25px 0 10px 0px; width: 434px;}
+.profile .change .old {background: url("{{ site.cssurl }}profile/old.png") no-repeat scroll 0 0 transparent; height: 32px; margin: 25px 0 10px 0px; width: 434px;}
+.profile .change .new {background: url("{{ site.cssurl }}profile/new.png") no-repeat scroll 0 0 transparent; height: 32px; margin: 25px 0 10px 0px; width: 434px;}
 .profile .change .old input, .profile .change .new input {background: none repeat scroll 0 0 transparent; border: medium none; margin: 6px 0 0 58px; width: 370px;}
-.profile .change .button {background: url("/s/css/profile/change.png") no-repeat scroll 0 0 transparent; width: 89; height: 36; margin: 25px 0 0 52px;}
+.profile .change .button {background: url("{{ site.cssurl }}profile/change.png") no-repeat scroll 0 0 transparent; width: 89; height: 36; margin: 25px 0 0 52px;}
 .profile .change .button a {display: block; height: 34px; width: 87px; margin: 1px;}
 
 .profile_ch .change, .profile_ch .ach_not_active, .profile_ch .ch_active, .profile_ch .s_not_active {display: block;}
@@ -630,7 +632,7 @@ a.underline:hover, a:hover span.underline{
 .profile_ach .share_top div{overflow: visible;}
 .profile {overflow: visible;}
 .profile .profile_menu {margin-top: 10px;}
-.profile .profile_menu .star {background: url("/s/css/profile/star.png") no-repeat scroll 0 0 transparent; width: 42px; height: 40px; float: left; margin-right: 5px;}
+.profile .profile_menu .star {background: url("{{ site.cssurl }}profile/star.png") no-repeat scroll 0 0 transparent; width: 42px; height: 40px; float: left; margin-right: 5px;}
 .profile .profile_menu .menu_item {float: left; margin: 10px; width: 150px;}
 .profile .profile_menu .menu_item .not_active {float: left;}
 .profile .profile_menu .not_active {border-bottom: rgb(0, 51, 102) 1px dashed;}
@@ -640,8 +642,8 @@ a.underline:hover, a:hover span.underline{
 .profile .profile_menu .ch_active .t {font-size: 15px; font-family: Arial; font-weight: bold; color: white; background-color: rgb(0, 128, 203); height: 20px;}
 .profile .profile_menu .s_not_active a {text-decoration: none; font-size: 15px; font-family: Arial; color: rgb(0, 51, 102);}
 .profile .profile_menu .s_active .t {font-size: 15px; font-family: Arial; font-weight: bold; color: white; background-color: rgb(0, 128, 203); height: 20px;}
-.profile .profile_menu .active .pl {background: url("/s/css/profile/pl.png") no-repeat scroll 0 0 transparent; width: 5px; height: 20px; float: left;}
-.profile .profile_menu .active .pr {background: url("/s/css/profile/pr.png") no-repeat scroll 0 0 transparent; width: 5px; height: 20px; float: right;}
+.profile .profile_menu .active .pl {background: url("{{ site.cssurl }}profile/pl.png") no-repeat scroll 0 0 transparent; width: 5px; height: 20px; float: left;}
+.profile .profile_menu .active .pr {background: url("{{ site.cssurl }}profile/pr.png") no-repeat scroll 0 0 transparent; width: 5px; height: 20px; float: right;}
 .profile .profile_menu .ch_active {width: 140px;}
 .profile .profile_menu .ch_active .t {width: 130px;}
 .profile .profile_menu .ach_active {width: 150px;}
@@ -653,7 +655,7 @@ a.underline:hover, a:hover span.underline{
 .test_achiv .share {width: 265px; height: 65px; margin-top: -25px; /*display: none;*/overflow: visible;}
 .test_achiv .share_visible {display: block;}
 .test_achiv .share_top {width: 243px; height: 25px; /*border: rgb(213, 213, 213) 1px solid;*/ padding: 30px 10px 5px 10px;overflow: visible;}
-.test_achiv .share_bottom {width: 263px; height: 4px; border: 0; background: url("/s/css/profile/shadow.png") no-repeat scroll 0 0 transparent;}
+.test_achiv .share_bottom {width: 263px; height: 4px; border: 0; background: url("{{ site.cssurl }}profile/shadow.png") no-repeat scroll 0 0 transparent;}
 
 .subscribe_checkbox {margin-top: 50px; margin-left: 10px; cursor:pointer;}
 
@@ -664,8 +666,8 @@ a.underline:hover, a:hover span.underline{
 .disclaimer .disclaimer_menu .menu_item .pr {width: 5px; height: 20px; float: left;}
 .disclaimer .disclaimer_menu .menu_item .t {height: 20px; float: left;}
 .disclaimer .disclaimer_menu .menu_item .t .tt {font-size: 15px; font-family: Times New Roman; letter-spacing: 2px; color: rgb(0, 51, 102); border-bottom: rgb(0, 51, 102) 1px dashed; cursor: pointer; float: left;}
-.disclaimer .disclaimer_menu .menu_item.active .pl {background: url("/s/css/profile/pl.png") no-repeat scroll 0 0 transparent;}
-.disclaimer .disclaimer_menu .menu_item.active .pr {background: url("/s/css/profile/pr.png") no-repeat scroll 0 0 transparent;}
+.disclaimer .disclaimer_menu .menu_item.active .pl {background: url("{{ site.cssurl }}profile/pl.png") no-repeat scroll 0 0 transparent;}
+.disclaimer .disclaimer_menu .menu_item.active .pr {background: url("{{ site.cssurl }}profile/pr.png") no-repeat scroll 0 0 transparent;}
 .disclaimer .disclaimer_menu .menu_item.active .t {background-color: rgb(0, 128, 203);}
 .disclaimer .disclaimer_menu .menu_item.active .t .tt {color: white; border-bottom: 0; cursor: auto;}
 .disclaimer .rus, .disclaimer .eng {display:none;}
@@ -687,27 +689,27 @@ a.underline:hover, a:hover span.underline{
 	z-index:1000;
 }
 	.feedback.after {
-		background:url(lessons/feedback/feedback_after.png) no-repeat scroll 0 0 transparent;
+		background:url({{ site.cssurl }}lessons/feedback/feedback_after.png) no-repeat scroll 0 0 transparent;
 		height: 465px;
 	}
 	.after .feedback_container {
 		display: none;
 	}
 	.feedback .up{
-		background:url(lessons/feedback/header_bg_feedback.png) no-repeat scroll 0 0 transparent;
+		background:url({{ site.cssurl }}lessons/feedback/header_bg_feedback.png) no-repeat scroll 0 0 transparent;
 		height:32px;
 		}
 	.feedback .body_center{
-		background:url(lessons/feedback/body_bg_feedback.png) repeat-y scroll 0 0 transparent;
+		background:url({{ site.cssurl }}lessons/feedback/body_bg_feedback.png) repeat-y scroll 0 0 transparent;
 		height:378px;
 		}
 	.feedback .down{
-		background:url(lessons/feedback/footer_bg_feedback.png) no-repeat scroll 0 0 transparent;
+		background:url({{ site.cssurl }}lessons/feedback/footer_bg_feedback.png) no-repeat scroll 0 0 transparent;
 		height:55px;	
 		}
 	.feedback .close, .close{
 		position:absolute;
-		background:url(lessons/feedback/close_form.png) no-repeat scroll 0 0 transparent;
+		background:url({{ site.cssurl }}lessons/feedback/close_form.png) no-repeat scroll 0 0 transparent;
 		width:18px;
 		height:18px;
 		top:25px;
@@ -715,7 +717,7 @@ a.underline:hover, a:hover span.underline{
 		cursor:pointer;
 		}
 	.feedback .bg_zagol{
-		background:url(lessons/feedback/feedback.png) no-repeat scroll 0 0 transparent;
+		background:url({{ site.cssurl }}lessons/feedback/feedback.png) no-repeat scroll 0 0 transparent;
 		width:105px;
 		height:25px;
 		margin:30px 0 20px 135px;
@@ -725,7 +727,7 @@ a.underline:hover, a:hover span.underline{
 		height:27px;		
 		}
 	.feedback .bgfname{
-		background:url(lessons/feedback/feedback_first-name.png) no-repeat scroll 0 0 transparent;
+		background:url({{ site.cssurl }}lessons/feedback/feedback_first-name.png) no-repeat scroll 0 0 transparent;
 		}
 	.feedback .bgfname input, .feedback .bgemail input{
 		height: 21px;
@@ -735,10 +737,10 @@ a.underline:hover, a:hover span.underline{
 		border:0;
 		}
 	.feedback .bgemail{
-		background:url(lessons/feedback/email_feedback.png) no-repeat scroll 0 0 transparent;
+		background:url({{ site.cssurl }}lessons/feedback/email_feedback.png) no-repeat scroll 0 0 transparent;
 		}
 	.feedback .message{
-		background:url(lessons/feedback/bg_feedback_message.png) no-repeat scroll 0 0 transparent;
+		background:url({{ site.cssurl }}lessons/feedback/bg_feedback_message.png) no-repeat scroll 0 0 transparent;
 		height:153px;
 		width:434px;
 		}
@@ -759,7 +761,7 @@ a.underline:hover, a:hover span.underline{
 		}
 	.feedback .button a{
 		display:block;
-		background:url(lessons/feedback/feedback_submit.png) no-repeat scroll 0 0 transparent;
+		background:url({{ site.cssurl }}lessons/feedback/feedback_submit.png) no-repeat scroll 0 0 transparent;
 		height:44px;
 		width:94px;
 		}
@@ -774,7 +776,7 @@ a.underline:hover, a:hover span.underline{
 		}
 	
 	.feedback .button input{
-		background:url(lessons/feedback/feedback_submit.png) no-repeat scroll 0 0 transparent;
+		background:url({{ site.cssurl }}lessons/feedback/feedback_submit.png) no-repeat scroll 0 0 transparent;
 		height:44px;
 		width:94px;
 		border: medium none;
