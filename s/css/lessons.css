@@ -136,12 +136,12 @@
 	z-index: 1;
 	}
 .gallery .ltengal{
-	background: url(/s/css/lessons/lgalten.png) no-repeat scroll 100% 0 transparent;
+	background: url({{site.mediaurl}}/s/css/lessons/lgalten.png) no-repeat scroll 100% 0 transparent;
 	/*float:left;*/
 	left:25px;   
 	}
 .str{
-	background: url(/s/css/lessons/galstreka.png) no-repeat scroll 0 0 transparent;
+	background: url({{site.mediaurl}}/s/css/lessons/galstreka.png) no-repeat scroll 0 0 transparent;
 	/*border:1px solid red;*/
 	width:55px;
 	height:50px;
@@ -165,7 +165,7 @@
 	background-position:-2px -282px;
 	}	
 .gallery .rtengal{
-	background: url(/s/css/lessons/rgalten.png) no-repeat scroll 0 0 transparent;
+	background: url({{site.mediaurl}}/s/css/lessons/rgalten.png) no-repeat scroll 0 0 transparent;
 	/*float:right;*/
 	right:240px;
 	}
