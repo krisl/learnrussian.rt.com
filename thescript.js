@@ -18,7 +18,7 @@ glob(allhtml, null, (er, files) => {
     //console.log({er});
     //console.log({files});
     files.forEach(file => {
-	    if (file.split("/").some(dir => ["_site", "_includes"].includes(dir))) return;
+	    if (file.split("/").some(dir => ["_site", "_includes", "_layouts"].includes(dir))) return;
         console.log({file})
 
         const data = fs.readFileSync(file, "utf8");
