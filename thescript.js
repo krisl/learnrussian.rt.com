@@ -14,31 +14,37 @@ const root = local
 const allhtml = root + "**/*.html";
 const indexhtml = root + "index.html";
 const markFm = "---\n";
-glob(indexhtml, null, (er, files) => {
+glob(allhtml, null, (er, files) => {
     //console.log({er});
     //console.log({files});
     files.forEach(file => {
+	    if (file.split("/").some(dir => ["_site", "_includes"].includes(dir))) return;
         console.log({file})
+
         const data = fs.readFileSync(file, "utf8");
         const openFmPos = data.indexOf(markFm)
         const closFmPos = data.indexOf(markFm, openFmPos + markFm.length)
 	const frontMatt = data.substring(openFmPos, closFmPos + markFm.length);
-        const htmlText = data.substring(openFmPos + frontMatt.length +1)
+        const htmlText = data.substring(openFmPos + frontMatt.length)
         console.log({frontMatt});
 	    //console.log({htmlText});
         const $ = cheerio.load(htmlText) //, {frontMatter: true}, false); //, { decodeEntities: true});// , null, false);
 	    //$('#footer').remove();
-	const desc = $('meta[name="description"]').attr('content');
-	const keys = $('meta[name="keywords"]').attr('content');
-	const titl = $('title').text().trim();
-	    console.log({desc, keys})
-	const newFm = wrapInFrontMatter([
-		"description: " + desc,
-		"keywords: " + keys,
-		"title: " + titl
-	]);
-	    console.log({newFm})
-	$('#head').replaceWith('{% include head.html %}');
+	    const desc = $('meta[name="description"]').attr('content');
+	    const keys = $('meta[name="keywords"]').attr('content');
+	    const titl = $('title').text().trim();
+	        console.log({desc, keys})
+	    const newFm = wrapInFrontMatter([
+	    	desc && ('description: "' + desc.replace(/"/g, '&quot;') + '"'),
+	    	keys && ('keywords: "' + keys.replace(/"/g, '&quot;') + '"'),
+	    	titl && ('title: "' + titl.replace(/"/g, '&quot;') + '"')
+	    ].filter(Boolean));
+
+	        console.log({newFm})
+	    $('head').replaceWith('\n{% include head.html %}');
+	    //console.log($('head').text());
+	    //return
+	    //console.log($.html())
         fs.writeFileSync(file, newFm + $.html());
     });
 })
