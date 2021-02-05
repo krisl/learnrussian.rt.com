@@ -30,22 +30,23 @@ glob(allhtml, null, (er, files) => {
 	    //console.log({htmlText});
         const $ = cheerio.load(htmlText) //, {frontMatter: true}, false); //, { decodeEntities: true});// , null, false);
 	    //$('#footer').remove();
-	    const desc = $('meta[name="description"]').attr('content');
-	    const keys = $('meta[name="keywords"]').attr('content');
-	    const titl = $('title').text().trim();
-	        console.log({desc, keys})
-	    const newFm = wrapInFrontMatter([
-	    	desc && ('description: "' + desc.replace(/"/g, '&quot;') + '"'),
-	    	keys && ('keywords: "' + keys.replace(/"/g, '&quot;') + '"'),
-	    	titl && ('title: "' + titl.replace(/"/g, '&quot;') + '"')
-	    ].filter(Boolean));
+	    //const desc = $('meta[name="description"]').attr('content');
+	    //const keys = $('meta[name="keywords"]').attr('content');
+	    //const titl = $('title').text().trim();
+	    //    console.log({desc, keys})
+	    //const newFm = wrapInFrontMatter([
+	    //	desc && ('description: "' + desc.replace(/"/g, '&quot;') + '"'),
+	    //	keys && ('keywords: "' + keys.replace(/"/g, '&quot;') + '"'),
+	    //	titl && ('title: "' + titl.replace(/"/g, '&quot;') + '"')
+	    //].filter(Boolean));
 
-	        console.log({newFm})
-	    $('head').replaceWith('\n{% include head.html %}');
+	    //    console.log({newFm})
+	    //$('head').remove();
+	    $('div.hmenu').replaceWith('{% include hmenu.html %}');
 	    //console.log($('head').text());
 	    //return
 	    //console.log($.html())
-        fs.writeFileSync(file, newFm + $.html());
+        fs.writeFileSync(file, frontMatt + $.html());
     });
 })
 
