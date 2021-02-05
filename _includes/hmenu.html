@@ -1,0 +1,12 @@
+<div class="hmenu">
+    {% assign path = page.url | split: '/' %}
+    <ul>	
+      {% for item in site.data.hmenu %}
+       {% if item.link == path[1] %}
+        <li class="active"><span>{{item.name}}</span></li>
+       {% else %}
+        <li><a href="{{item.link | relative_url}}"><span class="underline">{{item.name}}</span></a></li>
+       {% endif %}
+      {% endfor %}
+    </ul>			 
+</div>
