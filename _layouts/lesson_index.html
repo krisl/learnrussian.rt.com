@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<link href="{{ '/s/css/tables/styles.css' | relative_url }}" rel="stylesheet" type="text/css">
+<script src="{{ '/s/js/pages/lessons.js?n' | relative_url }}"></script>
+<div class="maintenance">
+    <div class="lesson">
+        {% include llesson.html %}
+        <div class="clesson">
+            {{ content }}
+        </div>
+    </div>
+</div>
