@@ -1130,13 +1130,6 @@ a.under:hover {
 /* main */
 
 
-.fb_edge_comment_widget.fb_iframe_widget {
-    overflow: visible;
-    position: absolute;
-}
-.fb-like.fb_edge_widget_with_comment.fb_iframe_widget{
-	overflow: visible;
-	}
 #conteiner .main , #conteiner, .inwrapper, #wrapper, .aplhabet{
 overflow: visible;
 	}
