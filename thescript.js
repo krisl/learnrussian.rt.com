@@ -11,18 +11,19 @@ const root = local
 const allhtml = root + "**/*.html";
 const indexhtml = root + "index.html";
 
-glob(indexhtml, null, (er, files) => {
+glob(allhtml, null, (er, files) => {
     //console.log({er});
     //console.log({files});
     files.forEach(file => {
         console.log({file})
         const data = fs.readFileSync(file, "utf8");
-        //const data2 = data.substring(data.indexOf("\n") + 1)
-        //const data3 = data2.substring(data2.indexOf("\n") + 1)
+        const data2 = data.substring(data.indexOf("\n") + 1)
+        const data3 = data2.substring(data2.indexOf("\n") + 1)
         //console.log({data3});
-        const $ = cheerio.load(data); //, { decodeEntities: true});// , null, false);
-	$('#footer').remove();
-        fs.writeFileSync(file, $.html());
+        const $ = cheerio.load(data3) //, {frontMatter: true}, false); //, { decodeEntities: true});// , null, false);
+	    //$('#footer').remove();
+	$('#footer').replaceWith('{% include footer.html %}');
+        fs.writeFileSync(file, "---\n---\n" + $.html());
     });
 })
 
