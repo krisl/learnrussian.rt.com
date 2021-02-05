@@ -41,12 +41,12 @@ glob(allhtml, null, (er, files) => {
 	    //].filter(Boolean));
 
 	    //    console.log({newFm})
-	    //$('head').remove();
+	    $('.feedback').remove();
 	    //$('div.hmenu').replaceWith('{% include hmenu.html %}');
 	    //console.log($('head').text());
 	    //return
 	    //console.log($.html())
-        fs.writeFileSync(file, frontMatt + $('div#conteiner').html());
+        fs.writeFileSync(file, frontMatt + $.html());
     });
 })
 
