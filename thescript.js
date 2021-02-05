@@ -42,11 +42,11 @@ glob(allhtml, null, (er, files) => {
 
 	    //    console.log({newFm})
 	    //$('.soc_links').remove();
-	    $('.maintenance .llesson').replaceWith('{% include llesson.html %}\n');
+	    //$('.maintenance .clesson').replaceWith('{% include llesson.html %}\n');
 	    //console.log($('head').text());
 	    //return
 	    //console.log($.html())
-        fs.writeFileSync(file, frontMatt + $.html());
+        fs.writeFileSync(file, frontMatt + $('.maintenance .clesson').html());
     });
 })
 
