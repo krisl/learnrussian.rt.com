@@ -1130,42 +1130,6 @@ a.under:hover {
 /* main */
 
 
-.soc_links{
-	background: url(main/soc_links.png) no-repeat scroll 50% 0 transparent;
-	margin: 15px 0 0;
-    padding:90px 0 0;
-	float:left;
-	width:100%;
-	position:relative;
-	overflow: visible;
-	}
-.soc_links ul {
-   clear:left;
-   float:left;
-   margin:0;
-   padding:0;
-   position:relative;
-   left:50%;
-   text-align:center;
-   overflow: visible;
-}
-.soc_links ul li{
-	float:left;
-	background:none;
-	display:block;
-	list-style:none;
-	margin:0;
-	padding:0;
-	overflow:visible;
-	position:relative;
-	right:50%;
-}
-.soc_links ul li.facebook{
-	margin:0 35px 0 0;
-	}
-.soc_links ul li.google{
-	margin:0 -22px 0 0;
-	}
 .fb_edge_comment_widget.fb_iframe_widget {
     overflow: visible;
     position: absolute;
