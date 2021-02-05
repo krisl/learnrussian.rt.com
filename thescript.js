@@ -11,7 +11,7 @@ function wrapInFrontMatter(newItems) {
 const work = "/home/aaron/development/aaron/learnrussian.rt.com/"
 const local = "./"
 const root = local
-const allhtml = root + "**/*.html";
+const allhtml = root + "lessons/**/*.html";
 const indexhtml = root + "index.html";
 const markFm = "---\n";
 glob(allhtml, null, (er, files) => {
@@ -41,8 +41,8 @@ glob(allhtml, null, (er, files) => {
 	    //].filter(Boolean));
 
 	    //    console.log({newFm})
-	    $('.soc_links').remove();
-	    //$('div.hmenu').replaceWith('{% include hmenu.html %}');
+	    //$('.soc_links').remove();
+	    $('.maintenance .llesson').replaceWith('{% include llesson.html %}\n');
 	    //console.log($('head').text());
 	    //return
 	    //console.log($.html())
