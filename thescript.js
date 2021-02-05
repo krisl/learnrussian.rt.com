@@ -5,7 +5,13 @@ const glob = require('glob');
 
 //const data = fs.readFileSync("/home/aaron/development/aaron/learnrussian.rt.com/index.html", "utf8");
 
-glob("/home/aaron/development/aaron/learnrussian.rt.com/**/*.html", null, (er, files) => {
+const work = "/home/aaron/development/aaron/learnrussian.rt.com/"
+const local = "./"
+const root = local
+const allhtml = root + "**/*.html";
+const indexhtml = root + "index.html";
+
+glob(indexhtml, null, (er, files) => {
     //console.log({er});
     //console.log({files});
     files.forEach(file => {
@@ -15,6 +21,7 @@ glob("/home/aaron/development/aaron/learnrussian.rt.com/**/*.html", null, (er, f
         //const data3 = data2.substring(data2.indexOf("\n") + 1)
         //console.log({data3});
         const $ = cheerio.load(data); //, { decodeEntities: true});// , null, false);
+	$('#footer').remove();
         fs.writeFileSync(file, $.html());
     });
 })
