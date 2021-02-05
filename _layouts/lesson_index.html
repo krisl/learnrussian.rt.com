@@ -5,7 +5,9 @@ layout: default
 <script src="{{ '/s/js/pages/lessons.js?n' | relative_url }}"></script>
 <div class="maintenance">
     <div class="lesson">
-        {% include llesson.html %}
+        <div class="llesson">
+            {% include lesson_set.html %}
+        </div>
         <div class="clesson">
             {{ content }}
         </div>

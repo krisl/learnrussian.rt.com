@@ -1,7 +1,0 @@
-<div class="llesson">
-    <ul class="lesson_set">
-      {% for item in site.data.lesson_sets %}
-        <li><a class="underline {% if item.link == page.url %}active{% endif %}" href="{{ item.link | relative_url }}">{{item.name}}</a></li>
-      {% endfor %}
-    </ul>
-</div>
