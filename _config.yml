@@ -1,7 +1,7 @@
 defaults:
   -
     scope:
-      path: ""
+      path: "**/*.html"
     values:
       layout: "default"
 
