@@ -41,7 +41,7 @@ glob(allhtml, null, (er, files) => {
 	    //].filter(Boolean));
 
 	    //    console.log({newFm})
-	    $('.feedback').remove();
+	    $('.web_brouser_ie78').remove();
 	    //$('div.hmenu').replaceWith('{% include hmenu.html %}');
 	    //console.log($('head').text());
 	    //return
