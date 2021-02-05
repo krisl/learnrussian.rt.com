@@ -28,7 +28,7 @@ glob(allhtml, null, (er, files) => {
         const htmlText = data.substring(openFmPos + frontMatt.length)
         console.log({frontMatt});
 	    //console.log({htmlText});
-        const $ = cheerio.load(htmlText) //, {frontMatter: true}, false); //, { decodeEntities: true});// , null, false);
+        const $ = cheerio.load(htmlText, null, false) //, {frontMatter: true}, false); //, { decodeEntities: true});// , null, false);
 	    //$('#footer').remove();
 	    //const desc = $('meta[name="description"]').attr('content');
 	    //const keys = $('meta[name="keywords"]').attr('content');
@@ -42,11 +42,11 @@ glob(allhtml, null, (er, files) => {
 
 	    //    console.log({newFm})
 	    //$('head').remove();
-	    $('div.hmenu').replaceWith('{% include hmenu.html %}');
+	    //$('div.hmenu').replaceWith('{% include hmenu.html %}');
 	    //console.log($('head').text());
 	    //return
 	    //console.log($.html())
-        fs.writeFileSync(file, frontMatt + $.html());
+        fs.writeFileSync(file, frontMatt + $('div#conteiner').html());
     });
 })
 
