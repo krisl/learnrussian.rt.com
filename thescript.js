@@ -8,11 +8,23 @@ function wrapInFrontMatter(newItems) {
 	return ["---", ...newItems, "---"].join('\n') + '\n'
 }
 
+function fixlink(link) {
+	if (link.includes("{{") || link.includes("{%")) return link;
+	if (link.startsWith("#")) return link;
+	if (link.startsWith("http://")) return link;
+	if (link.startsWith("https://")) return link;
+	if (['.jpg', '.png', '.gif', '.pdf', '.mp3', '.ogg'].some(ext => link.endsWith(ext))) {
+		return "{{site.mediaurl}}" + link
+	}
+	return `{{ '${link}' | relative_url }}`
+}
+
 const work = "/home/aaron/development/aaron/learnrussian.rt.com/"
 const local = "./"
 const root = local
-const allhtml = root + "lessons/**/*.html";
+const allhtml = root + "**/*.html";
 const indexhtml = root + "index.html";
+const sample = root + "lessons/possessive-pronouns-questions/index.html"
 const markFm = "---\n";
 glob(allhtml, null, (er, files) => {
     //console.log({er});
@@ -46,7 +58,10 @@ glob(allhtml, null, (er, files) => {
 	    //console.log($('head').text());
 	    //return
 	    //console.log($.html())
-        fs.writeFileSync(file, frontMatt + $('.maintenance .clesson').html());
+	    $('[href]').each((x, i) => $(i).attr('href', fixlink($(i).attr('href'))));
+	    $('[src]').each((x, i) => $(i).attr('src', fixlink($(i).attr('src'))));
+	    $('[audio]').each((x, i) => $(i).attr('audio', fixlink($(i).attr('audio'))));
+        fs.writeFileSync(file, frontMatt + $.html());
     });
 })
 
