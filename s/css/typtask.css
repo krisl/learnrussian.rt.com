@@ -155,16 +155,16 @@
 		font: 15px bold trebuchet MS;
 		}
 	.typeight .city{
-		background: url(lessons/6/road.gif) repeat-x scroll 0 102px transparent;
+		background: url({{site.cssurl}}lessons/6/road.gif) repeat-x scroll 0 102px transparent;
 		width: 440px;
 		}
 	.typeight .city .left{
-		background: url(lessons/6/sity-left.gif) no-repeat scroll 0 0 transparent;
+		background: url({{site.cssurl}}lessons/6/sity-left.gif) no-repeat scroll 0 0 transparent;
 		height: 230px;
 		width: 109px;
 		}
 	.typeight .city .right{
-		background: url(lessons/6/sity-right.gif) no-repeat scroll 0 0 transparent;
+		background: url({{site.cssurl}}lessons/6/sity-right.gif) no-repeat scroll 0 0 transparent;
 		height: 230px;
 		width: 109px;
 		float: right;
@@ -206,7 +206,7 @@ p.twentybold{
 	display: none;
 }
 .bordersmall div{
-    background: url(lessons/vybiralki-answers.png) no-repeat scroll -8px -42px transparent;
+    background: url({{site.cssurl}}lessons/vybiralki-answers.png) no-repeat scroll -8px -42px transparent;
     height: 35px;
 	float: left;
 	}
@@ -590,7 +590,7 @@ background: none repeat scroll 0 0 #FFFFFF;
 }
 /* gramma tables*/
 .compass{
-	background: url(lessons/compass.gif) no-repeat scroll 50% 50% transparent;
+	background: url({{site.cssurl}}lessons/compass.gif) no-repeat scroll 50% 50% transparent;
 	position:relative;
 	height:250px;
 	width:368px;
@@ -660,7 +660,7 @@ li.south{
 	
 	
 	.email-way{
-		background: url(images/email-way.png) no-repeat scroll 50% 0 transparent;
+		background: url({{site.cssurl}}images/email-way.png) no-repeat scroll 50% 0 transparent;
 		height: 534px;
 		}
 	.email-way ul{
@@ -724,11 +724,11 @@ li.south{
 	}
 .maintenance .recbookm.yestar,
 .mainbookmarks .recbookm.yestar{
-	background: url(lessons/recbookm-star.png) no-repeat scroll 0 0 transparent;
+	background: url({{site.cssurl}}lessons/recbookm-star.png) no-repeat scroll 0 0 transparent;
 	}
 .maintenance .recbookm.problem,
 .mainbookmarks .recbookm.problem{
-	background: url(lessons/recbookm-problem.png) no-repeat scroll 0 0 transparent;
+	background: url({{site.cssurl}}lessons/recbookm-problem.png) no-repeat scroll 0 0 transparent;
 	}	
 .mainbookmarks .recbookm.yestar,
 .mainbookmarks .recbookm.problem{
@@ -819,7 +819,7 @@ li.south{
 	padding:0 10px;
 	}
 .colles .completed.percent{
-	background: url(lessons/colles-complect.png) no-repeat scroll 15px 0 transparent;
+	background: url({{site.cssurl}}lessons/colles-complect.png) no-repeat scroll 15px 0 transparent;
 	height: 22px;
 	}
 .colles .completed.percent p{	
@@ -852,7 +852,7 @@ li.south{
 	padding:5px;
 	}
 .sity{
-	background: url(lessons/sity.gif) no-repeat scroll 0 0 transparent;
+	background: url({{site.cssurl}}lessons/sity.gif) no-repeat scroll 0 0 transparent;
 	height: 126px;
     width: 126px;
 	}
@@ -962,7 +962,7 @@ a.under:hover {
 	margin:0 10px;	
 	}
 .typtwenty  li.bordersmall span{
-    background: url(lessons/vybiralki-answers.png) no-repeat scroll -8px -42px transparent;
+    background: url({{site.cssurl}}lessons/vybiralki-answers.png) no-repeat scroll -8px -42px transparent;
     height: 35px;
 	display:block;
 	float: left;
@@ -1034,7 +1034,7 @@ a.under:hover {
 		border:none;
 		}
 	.typeighteen  .girls_boys .girls{
-		background: url(lessons/2/sprite_woman.png) no-repeat scroll 0 0 transparent;
+		background: url({{site.cssurl}}lessons/2/sprite_woman.png) no-repeat scroll 0 0 transparent;
 		width:100px;
 		height:301px;
 		margin:45px auto 0;		
@@ -1079,7 +1079,7 @@ a.under:hover {
 		margin:263px 0 0 451px;
 		}
 .typeighteen  .girls_boys .boys{
-		background: url(lessons/2/piani_man.png) no-repeat scroll 0 0 transparent;
+		background: url({{site.cssurl}}lessons/2/piani_man.png) no-repeat scroll 0 0 transparent;
 		width:245px;
 		height:268px;
 		margin:45px auto 0;
@@ -1111,7 +1111,7 @@ a.under:hover {
 	margin:0;
 	}
 #homework-17 #task-2_2 .girls_boys {
-		background: url(lessons/2/line.png) no-repeat scroll 50% 0 transparent;
+		background: url({{site.cssurl}}lessons/2/line.png) no-repeat scroll 50% 0 transparent;
 		padding: 28px 0 0;
 		margin:55px 0;
 		}
@@ -1163,12 +1163,12 @@ img.imgl{
 
 #homework-23  #task-4 .anonym,
 #homework-23  #task-5 .anonym{
-	background: url(lessons/23/bg23_4.png) no-repeat scroll 50% 0 transparent;
+	background: url({{site.cssurl}}lessons/23/bg23_4.png) no-repeat scroll 50% 0 transparent;
 	overflow: visible;
 	height: 485px;
 	}
 #homework-23  #task-5 .anonym{
-	background: url(lessons/23/bg23_5.png) no-repeat scroll 50% 0 transparent;
+	background: url({{site.cssurl}}lessons/23/bg23_5.png) no-repeat scroll 50% 0 transparent;
 	/*height:485px;*/
 	}
 #homework-23 .task .ctask .anonym{
@@ -1194,25 +1194,25 @@ img.imgl{
 	margin-top:0;
 	}
 	/*.task .ctask .anonym p.line1 .droppable .if_empty{
-		background: url(lessons/23_4/23_4_l1.png) no-repeat scroll 50% 1px transparent;		
+		background: url({{site.cssurl}}lessons/23_4/23_4_l1.png) no-repeat scroll 50% 1px transparent;		
 		}	
 	.task .ctask .anonym p.line1 .droppable + .droppable .if_empty{
-		background: url(lessons/23_4/23_4_l2.png) no-repeat scroll 50% 1px transparent;
+		background: url({{site.cssurl}}lessons/23_4/23_4_l2.png) no-repeat scroll 50% 1px transparent;
 		}
 	.task .ctask .anonym p.line2 .droppable .if_empty{
-		background: url(lessons/23_4/23_4_l3.png) no-repeat scroll 50% -2px transparent;
+		background: url({{site.cssurl}}lessons/23_4/23_4_l3.png) no-repeat scroll 50% -2px transparent;
 		}
 	.task .ctask .anonym p.line3 .droppable .if_empty{
-		background: url(lessons/23_4/23_4_l4.png) no-repeat scroll 50% 1px transparent;
+		background: url({{site.cssurl}}lessons/23_4/23_4_l4.png) no-repeat scroll 50% 1px transparent;
 		}
 	.task .ctask .anonym p.line4 .droppable .if_empty{
-		background: url(lessons/23_4/23_4_l5.png) no-repeat scroll 50% -3px transparent;
+		background: url({{site.cssurl}}lessons/23_4/23_4_l5.png) no-repeat scroll 50% -3px transparent;
 		}
 	.task .ctask .anonym p.line4 .droppable  + .droppable .if_empty{
-		background: url(lessons/23_4/23_4_l6.png) no-repeat scroll 50% 1px transparent;
+		background: url({{site.cssurl}}lessons/23_4/23_4_l6.png) no-repeat scroll 50% 1px transparent;
 		}
 	.task .ctask .anonym p.line5 .droppable .if_empty{
-		background: url(lessons/23_4/23_4_l7.png) no-repeat scroll 50% -4px transparent;
+		background: url({{site.cssurl}}lessons/23_4/23_4_l7.png) no-repeat scroll 50% -4px transparent;
 		}
 .task .ctask .anonym p.line2{
 	margin:8px 0 0;
@@ -1255,7 +1255,7 @@ img.imgl{
 #homework-23  #task-4 .rtask .draggable,
 #homework-23  #task-5 .rtask .draggable{
 	border:0;
-	background: url(lessons/23/23_4-r.png) no-repeat scroll 50% 0 transparent;
+	background: url({{site.cssurl}}lessons/23/23_4-r.png) no-repeat scroll 50% 0 transparent;
 	/*font-weight:bold;*/
 	/*color:#5a29b3;*/
 	padding:5px;
@@ -1270,11 +1270,11 @@ img.imgl{
 	}
 /*#homework-23  #task-4 .rtask .draggable + .draggable{
 	border:0;
-	background: url(lessons/23_4/23_4_r2.png) no-repeat scroll 50% 1px transparent;
+	background: url({{site.cssurl}}lessons/23_4/23_4_r2.png) no-repeat scroll 50% 1px transparent;
 	}
 #homework-23  #task-4 .rtask .draggable + .draggable + .draggable{
 	border:0;
-	background: url(lessons/23_4/23_4_r3.png) no-repeat scroll 50% 1px transparent;
+	background: url({{site.cssurl}}lessons/23_4/23_4_r3.png) no-repeat scroll 50% 1px transparent;
 	}*/
 #homework-23  #task-4.typsecond .ctask .limit span, 
 #homework-23  #task-4.typsecond .ctask .limit,
@@ -1441,24 +1441,24 @@ img.tabir{
     bottom: 50%;
 	}
 #homework-75 #task-5 .sort .pr{
-    background: url(/s/content/lesson75/5_1.png) no-repeat scroll 0 0 transparent;
+    background: url({{site.mediaurl}}/s/content/lesson75/5_1.png) no-repeat scroll 0 0 transparent;
 	height:128px;
 	width:133px;
 	}
 #homework-75 #task-5 .sort +.sort .pr{
-    background: url(/s/content/lesson75/5_2.png) no-repeat scroll 0 0 transparent;
+    background: url({{site.mediaurl}}/s/content/lesson75/5_2.png) no-repeat scroll 0 0 transparent;
 	}
 #homework-75 #task-5 .sort +.sort +.sort .pr {
-    background: url(/s/content/lesson75/5_3.png) no-repeat scroll 0 0 transparent;
+    background: url({{site.mediaurl}}/s/content/lesson75/5_3.png) no-repeat scroll 0 0 transparent;
 	}
 #homework-75 #task-5 .sort +.sort +.sort +.sort  .pr{
-    background: url(/s/content/lesson75/5_4.png) no-repeat scroll 0 0 transparent;
+    background: url({{site.mediaurl}}/s/content/lesson75/5_4.png) no-repeat scroll 0 0 transparent;
 	}
 #homework-75 #task-5 .sort +.sort +.sort +.sort +.sort  .pr{
-    background: url(/s/content/lesson75/5_5.png) no-repeat scroll 0 0 transparent;
+    background: url({{site.mediaurl}}/s/content/lesson75/5_5.png) no-repeat scroll 0 0 transparent;
 	}
 #homework-75 #task-5 .sort +.sort +.sort +.sort +.sort +.sort .pr{
-    background: url(/s/content/lesson75/5_6.png) no-repeat scroll 0 0 transparent;
+    background: url({{site.mediaurl}}/s/content/lesson75/5_6.png) no-repeat scroll 0 0 transparent;
 	}
 #homework-75 #task-5 .sort.droppable.multidrop.ui-droppable.overed .pr, #homework-75 #task-5 .sort +.sort +.sort +.sort +.sort +.sort.droppable.multidrop.ui-droppable.overed .pr{
 	background-position:0 -130px;
@@ -1493,19 +1493,19 @@ img.tabir{
     margin: 0 20px 0 0;
 	}
 .station{
-	background: url(/s/content/lesson90/disk/1.png) no-repeat scroll 0 0 transparent;
+	background: url({{site.mediaurl}}/s/content/lesson90/disk/1.png) no-repeat scroll 0 0 transparent;
 	}
 .station_st{
-	background: url(/s/content/lesson90/disk/2.png) no-repeat scroll 0 0 transparent;
+	background: url({{site.mediaurl}}/s/content/lesson90/disk/2.png) no-repeat scroll 0 0 transparent;
 	}
 .airport{
-	background: url(/s/content/lesson90/disk/3.png) no-repeat scroll 0 0 transparent;
+	background: url({{site.mediaurl}}/s/content/lesson90/disk/3.png) no-repeat scroll 0 0 transparent;
 	}
 .parking{
-	background: url(/s/content/lesson90/disk/4.png) no-repeat scroll 0 0 transparent;
+	background: url({{site.mediaurl}}/s/content/lesson90/disk/4.png) no-repeat scroll 0 0 transparent;
 	}
 .stop{
-	background: url(/s/content/lesson90/disk/5.png) no-repeat scroll 0 0 transparent;
+	background: url({{site.mediaurl}}/s/content/lesson90/disk/5.png) no-repeat scroll 0 0 transparent;
 	}
 .droppable.overed .pronouns{
 	background-position:0 -135px;
@@ -1514,10 +1514,10 @@ img.tabir{
 	top:45%;
 	}
 .plus{
-	background: url(/s/content/lesson98/disk/plus.png) no-repeat scroll 0 0 transparent;
+	background: url({{site.mediaurl}}/s/content/lesson98/disk/plus.png) no-repeat scroll 0 0 transparent;
 	}
 .minus{
-	background: url(/s/content/lesson98/disk/minus.png) no-repeat scroll 0 0 transparent;
+	background: url({{site.mediaurl}}/s/content/lesson98/disk/minus.png) no-repeat scroll 0 0 transparent;
 	}
 .homework.test .lesson h1{
 	text-align:center;
@@ -1567,22 +1567,22 @@ img.tabir{
 	text-decoration: underline;
 	}
 .plash.noforse{
-	background: url(lessons/plash/noforse.png) no-repeat scroll 0 0 transparent;
+	background: url({{site.cssurl}}lessons/plash/noforse.png) no-repeat scroll 0 0 transparent;
 	}
 .plash.noforse  p span.uh{
 	color:#666;
 	}
 .plash.b.one{
-	background: url(lessons/plash/b1.png) no-repeat scroll 0 0 transparent;
+	background: url({{site.cssurl}}lessons/plash/b1.png) no-repeat scroll 0 0 transparent;
 	}
 .plash.b  p span.uh{
 	color:#ffcb27;
 	}
 .plash.b.two{
-	background: url(lessons/plash/b2.png) no-repeat scroll 0 0 transparent;
+	background: url({{site.cssurl}}lessons/plash/b2.png) no-repeat scroll 0 0 transparent;
 	}
 .plash.a.one{
-	background: url(lessons/plash/a1.png) no-repeat scroll 0 0 transparent;
+	background: url({{site.cssurl}}lessons/plash/a1.png) no-repeat scroll 0 0 transparent;
 	}
 .plash.a  p span.uh{
 	color:#0ba4ec;
@@ -1592,7 +1592,7 @@ img.tabir{
 	font-size:18px;
 	}	
 .plash.a.two{
-	background: url(lessons/plash/a2.png) no-repeat scroll 0 0 transparent;
+	background: url({{site.cssurl}}lessons/plash/a2.png) no-repeat scroll 0 0 transparent;
 	}		
 .plash .but{	
 	bottom:35px;
@@ -1603,7 +1603,7 @@ img.tabir{
 	}
 .plash .but div{
 	float:right;
-	background: url(lessons/plash/but_plash.png) no-repeat scroll 0 0 transparent;
+	background: url({{site.cssurl}}lessons/plash/but_plash.png) no-repeat scroll 0 0 transparent;
 	height:50px;
 	}
 .plash .but .yes{	
@@ -1739,46 +1739,46 @@ img.tabir{
 	margin-left:-5px;
 	}
 #table .brace_place {
-    background: url(/s/css/tables/brace.gif) no-repeat scroll center top transparent;
+    background: url({{site.mediaurl}}/s/css/tables/brace.gif) no-repeat scroll center top transparent;
 	display: block;
     margin: 0 10px;
 	padding-top:20px;
 	}
 #table .brace_l{
-	background: url(/s/css/tables/brace_l.gif) no-repeat scroll 0 10px transparent;
+	background: url({{site.mediaurl}}/s/css/tables/brace_l.gif) no-repeat scroll 0 10px transparent;
 	text-align: center;
     width: 100%;	
 	margin-bottom:20px;
 	padding-top:10px;
 	}
 #table .brace_r{
-	background: url(/s/css/tables/brace_r.gif) no-repeat scroll 100% 0 transparent;
+	background: url({{site.mediaurl}}/s/css/tables/brace_r.gif) no-repeat scroll 100% 0 transparent;
 	}
 #table .braceu{
-	background: url(/s/css/tables/braceu.gif) no-repeat scroll 50% 100% transparent;
+	background: url({{site.mediaurl}}/s/css/tables/braceu.gif) no-repeat scroll 50% 100% transparent;
 	display:block;
 	padding-bottom:20px;
 	margin:0 10px;
 	}
 #table .braceu_l{
-	background: url(/s/css/tables/braceu_l.gif) no-repeat scroll 0 100% transparent;
+	background: url({{site.mediaurl}}/s/css/tables/braceu_l.gif) no-repeat scroll 0 100% transparent;
 	margin-top:20px;
 	}
 #table .braceu_r{
-	background: url(/s/css/tables/braceu_r.gif) no-repeat 100% 100% transparent;
+	background: url({{site.mediaurl}}/s/css/tables/braceu_r.gif) no-repeat 100% 100% transparent;
 	}
 #table .brace_r_u{	
-	background: url(/s/css/tables/brace_r_u.png) no-repeat scroll 100% 0 transparent;
+	background: url({{site.mediaurl}}/s/css/tables/brace_r_u.png) no-repeat scroll 100% 0 transparent;
 	padding-top:10px;
 	}
 #table .brace_r_u span{
 	display:block;
 	}
 #table .brace_r_c{
-	background: url(/s/css/tables/brace_r_c.png) no-repeat scroll 100% 50% transparent;	
+	background: url({{site.mediaurl}}/s/css/tables/brace_r_c.png) no-repeat scroll 100% 50% transparent;	
 	}
 #table .brace_r_d{
-	background: url(/s/css/tables/brace_r_d.png) no-repeat scroll 100% 100% transparent;
+	background: url({{site.mediaurl}}/s/css/tables/brace_r_d.png) no-repeat scroll 100% 100% transparent;
 	padding-bottom:10px;
 	}
 #table .fz24{
@@ -1848,7 +1848,7 @@ img.tabir{
 	text-transform:uppercase;
 	}
 /*.topbar.alfavit li.isearch {
-    background: url(lessons/inputopbar_vocabrary.png) no-repeat scroll 0 0 transparent;
+    background: url({{site.cssurl}}lessons/inputopbar_vocabrary.png) no-repeat scroll 0 0 transparent;
     width:215px;
 }*/
 .voc_column  .playerstwo .playtwo{	
@@ -1856,7 +1856,7 @@ img.tabir{
 	margin:18px 0 0;
 	}
 .voc_column  .plpau{	
-	background-image:url(lessons/voc_rrows_play.png);
+	background-image:url({{site.cssurl}}lessons/voc_rrows_play.png);
 	background-position:0 0;
     height:10px;
 	}
@@ -1897,7 +1897,7 @@ img.tabir{
 	list-style:none;
 	}
 .r.alf .ract.act a.underline.pl{
-	background-image:url(/s/css/profile/pl.png);
+	background-image:url({{site.mediaurl}}/s/css/profile/pl.png);
 	background-color:#0080CB;
 	color:#fff;
 	border-bottom:0;
@@ -1905,7 +1905,7 @@ img.tabir{
 	margin-left:0;
 	}
 .r.alf .act .l.pr{
-	background-image:url(/s/css/profile/pr.png);	
+	background-image:url({{site.mediaurl}}/s/css/profile/pr.png);	
 	}
 .r.alf .ract .l.pr{
 	width:5px;
@@ -1972,7 +1972,7 @@ img.tabir{
 	margin-left:80px;
 	}
 .t2  .l.cramp{
-	background:url(tables/crampon2.png) no-repeat scroll 100% 50% transparent;
+	background:url({{site.cssurl}}tables/crampon2.png) no-repeat scroll 100% 50% transparent;
 	height:197px;
 	padding-right:25px;
 	margin-left:-55px;
@@ -2810,12 +2810,12 @@ img.tabir{
 		font-weight:normal;
 		}
 	.t21 .ram_bg_fon_1{
-		background-image:url(/s/css/tables/t21_4.png);
+		background-image:url({{site.mediaurl}}/s/css/tables/t21_4.png);
 		width:226px;		
 		padding-right:10px;
 		}
 	.t21 .ram_bg_fon_2{
-		background-image:url(/s/css/tables/t21_3.png);
+		background-image:url({{site.mediaurl}}/s/css/tables/t21_3.png);
 		width:403px;				
 		}
 /*http://62.213.87.180:7777/?name=table21*/
@@ -2866,7 +2866,7 @@ img.tabir{
 .ugol_brace_down{	
 	background-position:0 0;
 	background-repeat:no-repeat;
-	background-image:url(/s/css/tables/ugol_brace_down.png);
+	background-image:url({{site.mediaurl}}/s/css/tables/ugol_brace_down.png);
 	}
 .t22  .ugol_brace_down{
 	width:570px;
@@ -3073,10 +3073,10 @@ img.tabir{
 	width:286px;
 	background-position:0 0;
 	background-repeat:no-repeat;
-	background-image:url(/s/css/tables/male.gif);
+	background-image:url({{site.mediaurl}}/s/css/tables/male.gif);
 	}
 .t25 .lesson  div.l+ div.l{
-	background-image:url(/s/css/tables/female.gif);
+	background-image:url({{site.mediaurl}}/s/css/tables/female.gif);
 	}
 .t25 .lesson p.l.lhrgr, .t25 .lesson ul.l{	
 	width: 138px;

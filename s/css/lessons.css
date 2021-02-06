@@ -42,7 +42,7 @@
 	width: 599px;
 	}
 .bgal{
-	background: url(/s/css/lessons/dgallery.png) no-repeat scroll 0 0 transparent;
+	background: url({{site.mediaurl}}/s/css/lessons/dgallery.png) no-repeat scroll 0 0 transparent;
 	 -- width: 1100px; --
  --- position: absolute; ---
     position: relative;
@@ -61,7 +61,7 @@
 .panorama .bgal{
 	/*margin:-259px 0 0 -80px;*/
 	margin:-259px 0 0;
-	background: url(/s/css/lessons/dgallery.png) no-repeat scroll 0 0 transparent;
+	background: url({{site.mediaurl}}/s/css/lessons/dgallery.png) no-repeat scroll 0 0 transparent;
 	overflow: visible;
     width:597px;
 	position:absolute;
@@ -124,7 +124,7 @@
     position: absolute;
     width: 598px;
 	cursor: move;
-	background: url(/s/css/lessons/dgallery.png) no-repeat scroll 0 0 transparent;
+	background: url({{site.mediaurl}}/s/css/lessons/dgallery.png) no-repeat scroll 0 0 transparent;
 	height: 259px;
 	width:600px;
 	}*/	
@@ -215,7 +215,7 @@
 		.ltask  .check{
 		    width:44px;
 			height:35px;
-			background:url(lessons/cheket.png) no-repeat 0 5px transparent;
+			background:url({{site.cssurl}}lessons/cheket.png) no-repeat 0 5px transparent;
 			/*cursor:pointer;*/
 			float:right;
 			margin:0 0 5px;
@@ -227,7 +227,7 @@
 				background-position:0 -44px;
 				}
 			.butreset{
-				background:url(lessons/butreset.png) no-repeat 0 1px transparent;
+				background:url({{site.cssurl}}lessons/butreset.png) no-repeat 0 1px transparent;
 				width:36px;
 				height: 15px;
 				margin: 0 0 0 32px;
@@ -244,7 +244,7 @@
 				display: none;
 				}
 			.bookmark{				
-				background: url(lessons/bookmark.png) no-repeat scroll 50% -5px transparent;
+				background: url({{site.cssurl}}lessons/bookmark.png) no-repeat scroll 50% -5px transparent;
 				/*border: 1px solid red;*/
 				float: left;
 				height: 20px;
@@ -262,13 +262,13 @@
 				width:36px;
 				height:106px;
 				position:absolute;
-				background: url(lessons/bookmark.png) no-repeat scroll 50% 0 transparent;
+				background: url({{site.cssurl}}lessons/bookmark.png) no-repeat scroll 50% 0 transparent;
 				margin:-5px 0 0 -5px;
 				}
 			.bookmark ul li{
 				height:25px;
 				list-style:none;
-				background:url(lessons/bookmark.png) no-repeat scroll 50% 300px transparent;
+				background:url({{site.cssurl}}lessons/bookmark.png) no-repeat scroll 50% 300px transparent;
 				cursor:pointer;
 				margin:0;
 				}
@@ -364,14 +364,14 @@
 }
 /*players*/
 .players{
-	background: url(lessons/bgplayers.png) no-repeat scroll 50% 0 transparent;
+	background: url({{site.cssurl}}lessons/bgplayers.png) no-repeat scroll 50% 0 transparent;
 	width:475px;
 	height:24px;
 	position:relative;
 	margin:15px 0 15px;
 	}
 	.players .loadstrip{
-		background: url(lessons/loadstrip.png) no-repeat scroll 100% 0 transparent;
+		background: url({{site.cssurl}}lessons/loadstrip.png) no-repeat scroll 100% 0 transparent;
 		height: 4px;
 		margin: 9px 0 0 64px;
 		width: 8px;
@@ -384,7 +384,7 @@
 		position: absolute;
 		}
 	.players .playerstrip{
-		background: url(lessons/playerstrip.png) no-repeat scroll 100% 0 transparent;
+		background: url({{site.cssurl}}lessons/playerstrip.png) no-repeat scroll 100% 0 transparent;
 		height: 18px;
 		margin: 3px 0 0 64px;
 		position: absolute;
@@ -402,7 +402,7 @@
 		font:10px Trebuchet MS;
 		}
 	.players .sound{
-		background: url(lessons/sound.png) no-repeat scroll 0 0 transparent;
+		background: url({{site.cssurl}}lessons/sound.png) no-repeat scroll 0 0 transparent;
 		float: right;
 		height: 15px;
 		margin: -10px 0 0;
@@ -424,7 +424,7 @@
 		background-position:0 -80px;
 		}
 	.players .vs{
-		background: url(lessons/volume.png) no-repeat scroll 0 0 transparent;
+		background: url({{site.cssurl}}lessons/volume.png) no-repeat scroll 0 0 transparent;
 		}
 	.players .vnsound{
 		float:left;
@@ -482,7 +482,7 @@
 	}
 
 .playerstwo .playtwo{
-	background: url(lessons/bgplayerstwo.png) no-repeat scroll 0 50% transparent;
+	background: url({{site.cssurl}}lessons/bgplayerstwo.png) no-repeat scroll 0 50% transparent;
 	height:25px;
 	padding: 4px 0 0 29px;
 	margin:5px 0;
@@ -649,10 +649,10 @@ p.twentybold{
 	margin:0 8px 0 5px;
 	}
 .r-star-shape.grey .cn{
-	background: url(images/star-grey.png) repeat scroll 0 0 transparent;
+	background: url({{site.cssurl}}images/star-grey.png) repeat scroll 0 0 transparent;
 	}
 .r-star-shape.grey .conten{
-	background: url(images/centerconten-grey.png) repeat-y scroll 0 0 transparent;
+	background: url({{site.cssurl}}images/centerconten-grey.png) repeat-y scroll 0 0 transparent;
 	}
 .r-star-shape.grey .conten.cr{
 	background-position: 100% 0;
@@ -690,7 +690,7 @@ p.twentybold{
 	margin:20px 0 30px;
 	}
 .typeleven .bordersmall div{
-	background: url(lessons/bordersmall.png) no-repeat scroll 0 0 transparent;
+	background: url({{site.cssurl}}lessons/bordersmall.png) no-repeat scroll 0 0 transparent;
 	float:left;
 	height:33px;
 	}
@@ -718,7 +718,7 @@ p.twentybold{
 /* end bordersmall */
 /*small-keyboard*/
 .small-keyboard{
-	background: url(lessons/click-keyb.png) no-repeat scroll 0 0 transparent;
+	background: url({{site.cssurl}}lessons/click-keyb.png) no-repeat scroll 0 0 transparent;
 	height: 25px;
     width:130px;
 	cursor:pointer;
@@ -741,7 +741,7 @@ p.twentybold{
 div.crossword{
 	margin:20px 0 0;
 	padding:0;
-	background: url(lessons/bgcrossword.png) no-repeat scroll 2px -4px transparent;
+	background: url({{site.cssurl}}lessons/bgcrossword.png) no-repeat scroll 2px -4px transparent;
 	}
 	
 .crossword div{
@@ -839,7 +839,7 @@ div.crossword{
 	background:#fff;	 
 	}
 .topbar .down{
-	background: url(lessons/bgtopbar.png) no-repeat scroll -2px -6px transparent;
+	background: url({{site.cssurl}}lessons/bgtopbar.png) no-repeat scroll -2px -6px transparent;
 	height:8px;
 	margin:0 auto;
     width:990px;
@@ -862,7 +862,7 @@ div.crossword{
 	width:130px;
 	}
 .topbar li.isearch{
-	background: url(lessons/inputopbar.png) no-repeat scroll 0 0 transparent;
+	background: url({{site.cssurl}}lessons/inputopbar.png) no-repeat scroll 0 0 transparent;
 	width:431px;
     /*margin:3px 125px 0 115px;*/	
     margin:3px 35px 0 40px;	
@@ -878,20 +878,20 @@ div.crossword{
 
 /* keyboard*/
 .linekeyb{
-	background: url(lessons/bgupkeyboard.png) no-repeat scroll 0 0 transparent;
+	background: url({{site.cssurl}}lessons/bgupkeyboard.png) no-repeat scroll 0 0 transparent;
 	height:14px;
 	width:973px;
 	margin:0 auto;
 	}
 
 .keybord{
-	background: url(lessons/bgkeyboard.png) no-repeat scroll 0 0 transparent;
+	background: url({{site.cssurl}}lessons/bgkeyboard.png) no-repeat scroll 0 0 transparent;
 	width:477px;
 	height:250px;
 	margin:10px auto;
 	}
 .output{
-	background: url(lessons/output.png) no-repeat scroll 0 0 transparent;
+	background: url({{site.cssurl}}lessons/output.png) no-repeat scroll 0 0 transparent;
 	width:11px;
 	height:11px;
 	float:right;
@@ -914,7 +914,7 @@ div.crossword{
 	/*.keyfirst*/
 .keybord ul li span{
 	height:33px;	
-	background: url(lessons/b-keyboard-key.png) repeat-x scroll 0 0 transparent;
+	background: url({{site.cssurl}}lessons/b-keyboard-key.png) repeat-x scroll 0 0 transparent;
 	position:absolute;
 	}
 .keybord ul li .b-keyboard-key-m {
@@ -975,7 +975,7 @@ div.crossword{
 	margin: 0 8px 3px 117px;
 	}
 .keybord ul li .b-keyboard-key-m  span{
-	background: url(lessons/special-symbols.png) no-repeat scroll 1px -13px transparent;	
+	background: url({{site.cssurl}}lessons/special-symbols.png) no-repeat scroll 1px -13px transparent;	
 	display: block;
     height: 20px;
     margin:6px 0 0;
@@ -1195,10 +1195,10 @@ img.aplhabet{
 	margin:0 auto;
 	font:13px arial;
 	position:relative;
-	background: url(lessons/lesson-complected-down.png) no-repeat scroll 144px 35px transparent;
+	background: url({{site.cssurl}}lessons/lesson-complected-down.png) no-repeat scroll 144px 35px transparent;
 	}
 .lessoncomplected.popup{
-	background: url(lessons/lesson-complected.png) no-repeat scroll 0 0 transparent;
+	background: url({{site.cssurl}}lessons/lesson-complected.png) no-repeat scroll 0 0 transparent;
 	display:none;
 	position: fixed;
 	top: 50%;
@@ -1370,7 +1370,7 @@ ul.number li:hover{
     font-weight: bold;
 	}
 .pronouns{
-	background: url(lessons/pronouns.gif) no-repeat scroll 0 3px transparent;
+	background: url({{site.cssurl}}lessons/pronouns.gif) no-repeat scroll 0 3px transparent;
 	width:135px;
 	height:135px;
 	}
@@ -1453,7 +1453,7 @@ ul.number li:hover{
 	width: 120px;
 	height: 320px;
 	outline: #000 solid 1px;
-	background: url('/s/css/images/tetka.png');
+	background: url('{{site.mediaurl}}/s/css/images/tetka.png');
 	}
 .typeighteen .draggable{
 	background: #fff;
@@ -1496,7 +1496,7 @@ ul.number li:hover{
     background-position: -1396px 0;
 }
 	.pronouns-second{
-				background: url(lessons/pronouns-second.gif) no-repeat scroll 0 0 transparent;
+				background: url({{site.cssurl}}lessons/pronouns-second.gif) no-repeat scroll 0 0 transparent;
 				height: 135px;
 				width: 135px;
 				}
@@ -1513,7 +1513,7 @@ ul.number li:hover{
 				background-position:-139px -139px;
 				}
 .parts-world{
-				background: url(lessons/parts-world.gif) no-repeat scroll 0 0 transparent;
+				background: url({{site.cssurl}}lessons/parts-world.gif) no-repeat scroll 0 0 transparent;
 				height:135px;
 				width:135px;
 				}
@@ -1563,9 +1563,9 @@ p.vertwenty{
 .gtabs .tab .c .cc:hover {border-bottom: red 1px dashed; color: red;}
 
 .gtabs .selected .l, .gtabs div .c, .gtabs div .r {display: block; float: left;}
-.gtabs .selected .l {width: 7px; height: 23px; background: url("/s/css/lessons/gtabs/l.png") no-repeat scroll 0 0 transparent;}
-.gtabs .selected .c {margin-left: 0px; height: 23px; background: url("/s/css/lessons/gtabs/c.png") repeat-x scroll 0 0 transparent;}
-.gtabs .selected .r {width: 10px; height: 23px; background: url("/s/css/lessons/gtabs/r.png") no-repeat scroll 0 0 transparent;}
+.gtabs .selected .l {width: 7px; height: 23px; background: url("{{site.mediaurl}}/s/css/lessons/gtabs/l.png") no-repeat scroll 0 0 transparent;}
+.gtabs .selected .c {margin-left: 0px; height: 23px; background: url("{{site.mediaurl}}/s/css/lessons/gtabs/c.png") repeat-x scroll 0 0 transparent;}
+.gtabs .selected .r {width: 10px; height: 23px; background: url("{{site.mediaurl}}/s/css/lessons/gtabs/r.png") no-repeat scroll 0 0 transparent;}
 .gtabs .selected .extra {padding-left: 0px;}
 .gtabs .selected .c .cc {float: left; border-bottom: 0; font-weight: bold; font-size: 16px; font-family: Times New Roman; color: rgb(219, 10, 10); cursor:auto;}
 .gtabs .selected .c .cc:hover {border-bottom: 0;}

@@ -1,8 +1,11 @@
+---
+layout:
+---
 .tablesblock {font-size:16px; position:relative; margin-bottom:40px;}
 .tablesblock .picture {float:right; text-align:center;}
-/*.pdf {display:inline-block; background:url(/s/css/tables/pdf.gif) left center no-repeat; padding:8px 0 7px 37px;}*/
+/*.pdf {display:inline-block; background:url({{site.mediaurl}}/s/css/tables/pdf.gif) left center no-repeat; padding:8px 0 7px 37px;}*/
 .pdf {
-    background: url(/s/css/tables/pdf.gif) no-repeat scroll left center transparent;
+    background: url({{site.mediaurl}}/s/css/tables/pdf.gif) no-repeat scroll left center transparent;
     display: block;
     float: left;
     height: 36px;
@@ -10,8 +13,8 @@
     width: 29px;
 }
 .underline_grey {border-bottom:#d9d9d9 1px solid; display:inline-block; width:120px;}
-.female, .male {background:url(/s/css/tables/female.gif) 0 0 no-repeat; display:inline-block; height:21px; width:21px; vertical-align:middle; margin-right:3px;}
-.male {background-image:url(/s/css/tables/male.gif);}
+.female, .male {background:url({{site.mediaurl}}/s/css/tables/female.gif) 0 0 no-repeat; display:inline-block; height:21px; width:21px; vertical-align:middle; margin-right:3px;}
+.male {background-image:url({{site.mediaurl}}/s/css/tables/male.gif);}
 .tables thead th {text-align:left; font-size:22px; font-weight:normal;}
 .tables th {width:150px; padding:3px 0;}
 .tables td {width:127px; padding:3px 0 3px 23px;}
@@ -105,8 +108,8 @@
 .half {float:left; width:250px; margin-left:20px;}
 .half p {padding-left:40px; padding-bottom:10px;}
 .oh .half:first-child {margin-left:0;}
-.letter_a, .noletter_a {display:table-cell; background:url(/s/css/tables/a.gif) left center no-repeat; padding-left:40px; height:35px; line-height:35px;}
-.noletter_a {background-image:url(/s/css/tables/a_no.gif);}
+.letter_a, .noletter_a {display:table-cell; background:url({{site.mediaurl}}/s/css/tables/a.gif) left center no-repeat; padding-left:40px; height:35px; line-height:35px;}
+.noletter_a {background-image:url({{site.mediaurl}}/s/css/tables/a_no.gif);}
 .v20 {padding-top:20px!important; padding-bottom:20px!important;}
 .countres thead th {text-align:left; border-bottom:rgb(221, 223, 222) 1px solid; padding-top:0;}
 .countres thead th:first-child {border-bottom-width:0; padding-right:10px;}
@@ -159,19 +162,19 @@
 .countres tr td:first-child {padding-top:12px;/* padding-right:10px;*/}
 .nowrap {white-space:nowrap;}
 .brace {background-image:none;}
-.brace tr td {background:url(/s/css/tables/brace_r.gif) 100% 0 no-repeat; padding-top:15px;}
-.brace tr td:first-child {background:url(/s/css/tables/brace_l.gif) 0 0 no-repeat;}
-.brace tr td.brace_place {background:url(/s/css/tables/brace.gif) center top no-repeat; text-align:center; padding-right:20px;}
+.brace tr td {background:url({{site.mediaurl}}/s/css/tables/brace_r.gif) 100% 0 no-repeat; padding-top:15px;}
+.brace tr td:first-child {background:url({{site.mediaurl}}/s/css/tables/brace_l.gif) 0 0 no-repeat;}
+.brace tr td.brace_place {background:url({{site.mediaurl}}/s/css/tables/brace.gif) center top no-repeat; text-align:center; padding-right:20px;}
 /*.braceu {background-image:none;}*/
-.braceu tr td {background:url(/s/css/tables/braceu_r.gif) 100% 0 no-repeat; padding-top:15px;}
-.braceu tr td:first-child {background:url(/s/css/tables/braceu_l.gif) 0 0 no-repeat;}
-.braceu tr td.braceu_place {background:url(/s/css/tables/braceu.gif) center top no-repeat; text-align:center;}
-.vbrace_place {background:url(/s/css/tables/brace.png) left center no-repeat; padding-left:15px;}
-.vbrace_u {background:url(/s/css/tables/brace_u.png) left top no-repeat;}
-.vbrace_d {background:url(/s/css/tables/brace_d.png) left bottom no-repeat;}
-.vlbrace_place {background:url(/s/css/tables/lbrace.png) right center no-repeat; padding-left:15px;}
-.vlbrace_u {background:url(/s/css/tables/lbrace_u.png) right top no-repeat;}
-.vlbrace_d {background:url(/s/css/tables/lbrace_d.png) right bottom no-repeat;}
+.braceu tr td {background:url({{site.mediaurl}}/s/css/tables/braceu_r.gif) 100% 0 no-repeat; padding-top:15px;}
+.braceu tr td:first-child {background:url({{site.mediaurl}}/s/css/tables/braceu_l.gif) 0 0 no-repeat;}
+.braceu tr td.braceu_place {background:url({{site.mediaurl}}/s/css/tables/braceu.gif) center top no-repeat; text-align:center;}
+.vbrace_place {background:url({{site.mediaurl}}/s/css/tables/brace.png) left center no-repeat; padding-left:15px;}
+.vbrace_u {background:url({{site.mediaurl}}/s/css/tables/brace_u.png) left top no-repeat;}
+.vbrace_d {background:url({{site.mediaurl}}/s/css/tables/brace_d.png) left bottom no-repeat;}
+.vlbrace_place {background:url({{site.mediaurl}}/s/css/tables/lbrace.png) right center no-repeat; padding-left:15px;}
+.vlbrace_u {background:url({{site.mediaurl}}/s/css/tables/lbrace_u.png) right top no-repeat;}
+.vlbrace_d {background:url({{site.mediaurl}}/s/css/tables/lbrace_d.png) right bottom no-repeat;}
 .simpletable thead th {text-align:left; border-bottom:rgb(221, 223, 222) 1px solid;}
 .simpletable th, .simpletable td {padding:7px 20px 7px 0; vertical-align:top;}
 .titltgrey {background-color:rgb(221, 223, 222); font-size:22px; padding:5px 10px;}
@@ -179,7 +182,7 @@
 .simpletable2 tbody td {border-bottom:rgb(221, 223, 222) 1px solid;}
 .simpletable2 tbody tr td:first-child {font-size:22px;}
 .blockwithimage {background-repeat:no-repeat; padding-left:80px; min-height:80px; padding-bottom:30px;}
-.reference {background:url(/s/css/tables/reference.jpg) 0 0 no-repeat; width:0; overflow:hidden; padding-left:77px; height:77px;}
+.reference {background:url({{site.mediaurl}}/s/css/tables/reference.jpg) 0 0 no-repeat; width:0; overflow:hidden; padding-left:77px; height:77px;}
 .titlegrey {background-color:rgb(221, 223, 222); display:inline-block; font-size:16px; width:160px; padding:5px 10px; vertical-align:middle;}
 .titlegrey2 {margin-left: -3px; padding-left: 3px; background-color:rgb(221, 223, 222);}
 .titlegrey3 {margin-left: -5px; padding: 5px; background-color:rgb(221, 223, 222);}

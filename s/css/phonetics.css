@@ -1,3 +1,5 @@
+---
+---
 .phonetics {
     font-family: Times New Roman;
 }
@@ -119,10 +121,10 @@
 }
 .blueborder .up {
     height:11px;
-    background: url("phonetics/blue_border_top.png") no-repeat;
+    background: url("{{site.cssurl}}phonetics/blue_border_top.png") no-repeat;
 }
 .blueborder .content {
-    background: url("phonetics/blue_border_mid.png") repeat-y;
+    background: url("{{site.cssurl}}phonetics/blue_border_mid.png") repeat-y;
     padding:0 20px;
     font-size:16px;
     line-height:24px;
@@ -130,7 +132,7 @@
 }
 .blueborder .down {
     height:26px;
-    background: url("phonetics/blue_border_bottom.png") no-repeat;
+    background: url("{{site.cssurl}}phonetics/blue_border_bottom.png") no-repeat;
 }
 
 .pt10{
@@ -384,12 +386,12 @@ float:left;
 }
 
 .yellow_frame div.top {
-    background: url("phonetics/yellow_border_top.png") no-repeat;
+    background: url("{{site.cssurl}}phonetics/yellow_border_top.png") no-repeat;
     height:13px;
 }
 
 .yellow_frame div.mid {
-    background: url("phonetics/yellow_border_mid.png") repeat-y;
+    background: url("{{site.cssurl}}phonetics/yellow_border_mid.png") repeat-y;
     padding: 0 16px;
     font-size:16px;
     line-height:21px;
@@ -399,6 +401,6 @@ float:left;
 }
 
 .yellow_frame div.bottom {
-    background: url("phonetics/yellow_border_bottom.png") no-repeat;
+    background: url("{{site.cssurl}}phonetics/yellow_border_bottom.png") no-repeat;
     height:13px;
 }

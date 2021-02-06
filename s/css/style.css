@@ -545,7 +545,7 @@ a.underline:hover, a:hover span.underline{
 					height:51px;
 					}	
 .checkbox{
-	background:url(main/selectcheket.png) no-repeat 0 0 transparent;
+	background:url({{site.cssurl}}main/selectcheket.png) no-repeat 0 0 transparent;
 	height: 17px;
     margin: -2px 0 0;
     position: absolute;

@@ -5,7 +5,7 @@
 }
 
 .topbar li.testtimer {
-    background: url("tests/timer_small.png") no-repeat;
+    background: url("{{site.cssurl}}tests/timer_small.png") no-repeat;
     display:block;
     width:200px;
     height:33px;
@@ -16,18 +16,18 @@
 }
 
 .topbar_buttons .start_button {
-    background: url("tests/start.png") no-repeat 0 0;
+    background: url("{{site.cssurl}}tests/start.png") no-repeat 0 0;
     height: 54px;
     width:106px;
     cursor:pointer;
     margin-left:405px;
 }
 .topbar_buttons .start_button:hover {
-    background: url("tests/start.png") no-repeat -106px 0;
+    background: url("{{site.cssurl}}tests/start.png") no-repeat -106px 0;
 }
 
 .topbar_buttons .start_button:active {
-    background: url("tests/start.png") no-repeat -212px 0;
+    background: url("{{site.cssurl}}tests/start.png") no-repeat -212px 0;
 }
 
 .topbar li.topbar_buttons {
@@ -72,21 +72,21 @@
 }
 
 .t_answer .t_left {
-    background: url("tests/t_answ_edge.png") no-repeat 0 0;
+    background: url("{{site.cssurl}}tests/t_answ_edge.png") no-repeat 0 0;
     height:40px;
     float: left;
     width:8px;
 }
 
 .t_answer .t_right {
-    background: url("tests/t_answ_edge.png") no-repeat -8px 0;
+    background: url("{{site.cssurl}}tests/t_answ_edge.png") no-repeat -8px 0;
     height:40px;
     float: left;
     width:8px;
 }
 
 .t_answer .t_mid {
-    background: url("tests/t_answ_center.png") repeat-x 0 0;
+    background: url("{{site.cssurl}}tests/t_answ_center.png") repeat-x 0 0;
     float: left;
     height:33px;
     padding-top:7px;
@@ -95,43 +95,43 @@
 }
 
 .t_answer.active .t_left {
-    background: url("tests/t_answ_edge.png") no-repeat 0 -80px;
+    background: url("{{site.cssurl}}tests/t_answ_edge.png") no-repeat 0 -80px;
 }
 
 .t_answer.active  .t_right {
-    background: url("tests/t_answ_edge.png") no-repeat -8px -80px;
+    background: url("{{site.cssurl}}tests/t_answ_edge.png") no-repeat -8px -80px;
 }
 
 .t_answer.active  .t_mid {
-    background: url("tests/t_answ_center.png") repeat-x 0 -80px;
+    background: url("{{site.cssurl}}tests/t_answ_center.png") repeat-x 0 -80px;
 }
 
 .t_answer.active:hover .t_left {
-    background: url("tests/t_answ_edge.png") no-repeat 0px -80px;
+    background: url("{{site.cssurl}}tests/t_answ_edge.png") no-repeat 0px -80px;
 }
 
 .t_answer.active:hover  .t_right {
-    background: url("tests/t_answ_edge.png") no-repeat -8px -80px;
+    background: url("{{site.cssurl}}tests/t_answ_edge.png") no-repeat -8px -80px;
 }
 
 .t_answer.active:hover  .t_mid {
-    background: url("tests/t_answ_center.png") repeat-x 0 -80px;
+    background: url("{{site.cssurl}}tests/t_answ_center.png") repeat-x 0 -80px;
 }
 
 .t_answer:hover .t_left {
-    background: url("tests/t_answ_edge.png") no-repeat 0px -40px;
+    background: url("{{site.cssurl}}tests/t_answ_edge.png") no-repeat 0px -40px;
 }
 
 .t_answer:hover  .t_right {
-    background: url("tests/t_answ_edge.png") no-repeat -8px -40px;
+    background: url("{{site.cssurl}}tests/t_answ_edge.png") no-repeat -8px -40px;
 }
 
 .t_answer:hover  .t_mid {
-    background: url("tests/t_answ_center.png") repeat-x 0 -40px;
+    background: url("{{site.cssurl}}tests/t_answ_center.png") repeat-x 0 -40px;
 }
 
 .testcompleted.popup {
-    background: url("tests/test-completed.png") no-repeat scroll 0 0 transparent;
+    background: url("{{site.cssurl}}tests/test-completed.png") no-repeat scroll 0 0 transparent;
     display: none;
     left: 50%;
     margin-left: -267px;
@@ -202,7 +202,7 @@
     display: inline-block;
 }
 .header_buttons .test_btn {
-    background: url("tests/red_test_bg.png") transparent no-repeat 0 2px;
+    background: url("{{site.cssurl}}tests/red_test_bg.png") transparent no-repeat 0 2px;
     color:#000;
     font-weight: bold;
     font-size: 16px;
@@ -292,7 +292,7 @@
     margin-top: 20px;
     width:225px;
     height:280px;
-    background: url("tests/ah_1.png") no-repeat center top;
+    background: url("{{site.cssurl}}tests/ah_1.png") no-repeat center top;
     font-family: Times New Roman;
     position:relative;
 }
@@ -303,20 +303,20 @@
 	overflow: visible;
 	}
 .test_achiv ul li.gold {
-    background: url("tests/ah_gold.png") no-repeat center top;
+    background: url("{{site.cssurl}}tests/ah_gold.png") no-repeat center top;
 	
 }
 
 .test_achiv ul li.silver {
-    background: url("tests/ah_silver.png") no-repeat center top;
+    background: url("{{site.cssurl}}tests/ah_silver.png") no-repeat center top;
 }
 
 .test_achiv ul li.bronze {
-    background: url("tests/ah_bronze.png") no-repeat center top;
+    background: url("{{site.cssurl}}tests/ah_bronze.png") no-repeat center top;
 }
 
 .test_achiv ul li.completed {
-    background: url("tests/ah_comp.png") no-repeat center top;
+    background: url("{{site.cssurl}}tests/ah_comp.png") no-repeat center top;
 }
 
 .percent_block .percent_label {
@@ -376,7 +376,7 @@
     clear: left;
     display:block;
     width: 100%;
-    background: url("tests/ah_final_progress.png") no-repeat center top;
+    background: url("{{site.cssurl}}tests/ah_final_progress.png") no-repeat center top;
 }
 .final .percent_block .percent_value {
     margin-top: 0;
@@ -386,16 +386,16 @@
 }
 
 .test_achiv ul li.final.not_started {
-    background: url("tests/ah_final_none.png") no-repeat center top;
+    background: url("{{site.cssurl}}tests/ah_final_none.png") no-repeat center top;
 }
 .test_achiv ul li.final.phase1 {
-    background: url("tests/level-a1.png") no-repeat center top;
+    background: url("{{site.cssurl}}tests/level-a1.png") no-repeat center top;
 }
 .test_achiv ul li.final.phase2 {
-    background: url("tests/level-a2.png") no-repeat center top;
+    background: url("{{site.cssurl}}tests/level-a2.png") no-repeat center top;
 }
 .test_achiv ul li.final.phase3 {
-    background: url("tests/level-b1.png") no-repeat center top;
+    background: url("{{site.cssurl}}tests/level-b1.png") no-repeat center top;
 }
 .final .text_block {
     margin-top:185px;
@@ -408,7 +408,7 @@
 }
 
 .test_achiv ul li.final.completed {
-    background: url("tests/ah_final_done.png") no-repeat center top;
+    background: url("{{site.cssurl}}tests/ah_final_done.png") no-repeat center top;
 }
 
 .final.completed .time_block {
@@ -451,7 +451,7 @@
 }
 .t_results .header_buttons .show_results {
     color: #000;
-    background: url("tests/red_test_bg_long.png") transparent no-repeat 0 2px;
+    background: url("{{site.cssurl}}tests/red_test_bg_long.png") transparent no-repeat 0 2px;
     width: 80px;
     text-align: center;
     height:18px;
@@ -484,16 +484,16 @@
 }
 .t_correct .t_left {
     width: 10px;
-    background: url("tests/t_correct_l.png") transparent no-repeat;
+    background: url("{{site.cssurl}}tests/t_correct_l.png") transparent no-repeat;
     height: 41px;
 }
 .t_correct .t_right {
     width: 10px;
-    background: url("tests/t_correct_r.png") transparent no-repeat;
+    background: url("{{site.cssurl}}tests/t_correct_r.png") transparent no-repeat;
     height: 41px;
 }
 .t_correct .t_mid {
-    background: url("tests/t_correct_c.png") transparent repeat-x;
+    background: url("{{site.cssurl}}tests/t_correct_c.png") transparent repeat-x;
     height: 41px;
     padding-top:5px;
 }
