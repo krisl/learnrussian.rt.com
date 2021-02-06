@@ -23,10 +23,11 @@ const work = "/home/aaron/development/aaron/learnrussian.rt.com/"
 const local = "./"
 const root = local
 const allhtml = root + "**/*.html";
+const lessons = root + "lessons/**/index.html"
 const indexhtml = root + "index.html";
 const sample = root + "lessons/possessive-pronouns-questions/index.html"
 const markFm = "---\n";
-glob(allhtml, null, (er, files) => {
+glob(lessons, null, (er, files) => {
     //console.log({er});
     //console.log({files});
     files.forEach(file => {
@@ -53,14 +54,14 @@ glob(allhtml, null, (er, files) => {
 	    //].filter(Boolean));
 
 	    //    console.log({newFm})
-	    //$('.soc_links').remove();
+	    $('.hles').remove();
 	    //$('.maintenance .clesson').replaceWith('{% include llesson.html %}\n');
 	    //console.log($('head').text());
 	    //return
 	    //console.log($.html())
-	    $('[href]').each((x, i) => $(i).attr('href', fixlink($(i).attr('href'))));
-	    $('[src]').each((x, i) => $(i).attr('src', fixlink($(i).attr('src'))));
-	    $('[audio]').each((x, i) => $(i).attr('audio', fixlink($(i).attr('audio'))));
+	    //$('[href]').each((x, i) => $(i).attr('href', fixlink($(i).attr('href'))));
+	    //$('[src]').each((x, i) => $(i).attr('src', fixlink($(i).attr('src'))));
+	    //$('[audio]').each((x, i) => $(i).attr('audio', fixlink($(i).attr('audio'))));
         fs.writeFileSync(file, frontMatt + $.html());
     });
 })
