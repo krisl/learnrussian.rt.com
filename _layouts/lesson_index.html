@@ -17,7 +17,37 @@ layout: default
                     <p>Completion, %</p>
                </div>
             </div>
+	    {% for lesson in page.lessons %}
+            <div class="colles">
+                <div class="ncolles">
+                    <p>{{ forloop.index0 | plus: page.lesson_idx }}.</p>
+                </div>
+                <div class="completed">
+                    <p>0</p>
+                </div>
+                <div class="textcolles">
+                    <h3>
+                        <a class="underline" href="{{ lesson.href | relative_url }}">
+                            <span>{{ lesson.title }}.</span>
+                        </a>
+                    </h3>
+                    <p>{{ lesson.byline }}</p>
+                </div>
+            </div>
+	    {% endfor %}
             {{ content }}
+	    {% if page.test_url %}
+            <div class="colles">
+                <div class="textcolles">
+                    <img src="{{site.mediaurl}}/s/css/lessons/test-clock.png" alt="LR">
+                    <h3 style="margin:1px;">
+                        <a class="underline" href="{{ page.test_url | relative_url }}">
+                            <span>Test. Lessons {{ page.lesson_range }}.</span>
+                        </a>
+                    </h3>
+                </div>
+            </div>
+	    {% endif %}
         </div>
     </div>
 </div>
