@@ -7,4 +7,4 @@ defaults:
 
 mediaurl: "https://media.githubusercontent.com/media/krisl/learnrussian.rt.com/master"
 cssurl: "https://media.githubusercontent.com/media/krisl/learnrussian.rt.com/master/s/css/"
-baseurl: "/learnrussian.rt.com"
+#baseurl: "/learnrussian.rt.com"
